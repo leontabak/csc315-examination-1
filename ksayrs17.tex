@@ -79,7 +79,9 @@ Each lexeme group is represented by a token. So, a token is a category of its le
 
   \begin{answer}
 
-    Write your answer here.
+    Parsing algorithms that work for any unambiguous grammar are complicated
+and inefficient. The complexity of such algorithms is O(n3). This relatively large amount of time is required because these algorithms frequently must back up and reparse part of the sentence being analyzed.Backing up the parser also requires that part of the parsemtree being constructed must be dismantled and rebuilt.
+	In terms of parsing, faster algorithms have been found that work for only a subset of the set of all possible grammars. These algorithms are acceptable as long as the subset includes grammars that describe programming languages.
 
     \end{answer}
 
