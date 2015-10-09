@@ -78,7 +78,7 @@
 
   \begin{answer}
 
-    Attribute grammars are used to describe more of the structure of a programming language than can be described with a context-free grammar. Rules of static semantics are described in attribute grammars, whereas context free grammars do not take these into consideration. Therefore, algorithms that parses strings for the grammars of programming languages are more complex because they must also account for static and dynamic semantics. 
+    Attribute grammars are used to describe more of the structure of a programming language than can be described with a context-free grammar. Rules of static semantics are described in attribute grammars, whereas context free grammars do not take these into consideration. Therefore, algorithms that parses strings for the grammars of programming languages are more complicated because they must also account for static and dynamic semantics. However, parsing algorithms for context-free grammars must account for a large general set of grammars, and their complexity is usually measured as O(n\textsuperscript{3}). Even though programming languages are complicated, they can use parsing alogirthms that are less general and do not fit all grammars, so long as they do fit the grammar for that language. Therefore, commercial compliers have complexity of O(n) typically, which makes them less complex algorithms than those of the general context-free grammar parsing algorithms.
 
     \end{answer}
 
