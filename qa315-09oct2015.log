@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.7.27)  9 OCT 2015 14:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.17)  11 OCT 2015 14:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **qa315-09oct2015.tex
 (./qa315-09oct2015.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+Babel <3.9h> and hyphenation patterns for 4 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
@@ -92,83 +92,83 @@ Overfull \hbox (21.43309pt too wide) in paragraph at lines 14--15
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 25--26
-[][]
- []
-
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 38--39
-[][]
- []
-
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 52--53
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 28--29
 [][]
  []
 
 [3
 
 ]
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 60--61
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 46--47
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 68--69
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 62--63
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 79--80
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 75--76
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 89--90
-[][]
- []
-
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 98--99
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 91--92
 [][]
  []
 
 [4]
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 107--108
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 102--103
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 116--117
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 117--118
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 125--126
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 131--132
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 134--135
-[][]
- []
-
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 143--144
-[][]
- []
-
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 151--152
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 145--146
 [][]
  []
 
 [5]
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 160--161
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 156--157
 [][]
  []
 
-) (./eandrulis16.tex [6]
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 169--170
+[][]
+ []
+
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 183--184
+[][]
+ []
+
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 196--197
+[][]
+ []
+
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 207--208
+[][]
+ []
+
+[6]
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 222--223
+[][]
+ []
+
+) (./eandrulis16.tex [7]
 Chapter 2.
 
 Overfull \hbox (21.43309pt too wide) in paragraph at lines 14--15
@@ -185,14 +185,14 @@ Overfull \hbox (21.43309pt too wide) in paragraph at lines 38--39
 [][]
  []
 
+[8
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 52--53
+]
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 52--54
 [][]
  []
 
-[7
 
-]
 Overfull \hbox (21.43309pt too wide) in paragraph at lines 60--61
 [][]
  []
@@ -207,7 +207,11 @@ Overfull \hbox (21.43309pt too wide) in paragraph at lines 79--80
 [][]
  []
 
-
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 81.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 81.
+[9]
 Overfull \hbox (21.43309pt too wide) in paragraph at lines 89--90
 [][]
  []
@@ -217,12 +221,12 @@ Overfull \hbox (21.43309pt too wide) in paragraph at lines 98--99
 [][]
  []
 
-[8]
+
 Overfull \hbox (21.43309pt too wide) in paragraph at lines 107--108
 [][]
  []
 
-
+[10]
 Overfull \hbox (21.43309pt too wide) in paragraph at lines 116--117
 [][]
  []
@@ -247,12 +251,12 @@ Overfull \hbox (21.43309pt too wide) in paragraph at lines 151--152
 [][]
  []
 
-[9]
+[11]
 Overfull \hbox (21.43309pt too wide) in paragraph at lines 160--161
 [][]
  []
 
-) (./scaldwell16.tex [10]
+) (./scaldwell16.tex [12]
 Chapter 3.
 
 Overfull \hbox (21.43309pt too wide) in paragraph at lines 14--15
@@ -260,24 +264,19 @@ Overfull \hbox (21.43309pt too wide) in paragraph at lines 14--15
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 25--26
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 28--29
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 38--39
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 42--43
 [][]
  []
 
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 52--53
-[][]
- []
-
-[11
+[13
 
 ]
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 60--61
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 56--57
 [][]
  []
 
@@ -287,7 +286,7 @@ Overfull \hbox (21.43309pt too wide) in paragraph at lines 68--69
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 79--80
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 77--78
 [][]
  []
 
@@ -296,47 +295,52 @@ Overfull \hbox (21.43309pt too wide) in paragraph at lines 89--90
 [][]
  []
 
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 98--99
-[][]
- []
-
-[12]
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 107--108
+[14]
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 105--106
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 116--117
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 118--119
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 125--126
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 129--130
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 134--135
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 139--140
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 143--144
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 153--154
+[][]
+ []
+
+[15]
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 163--164
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 151--152
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 175--176
 [][]
  []
 
-[13]
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 160--161
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 187--188
 [][]
  []
 
-) (./dcarmichael18.tex [14]
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 200--201
+[][]
+ []
+
+[16]) (./dcarmichael18.tex [17]
 Chapter 4.
 
 Overfull \hbox (21.43309pt too wide) in paragraph at lines 14--15
@@ -344,83 +348,83 @@ Overfull \hbox (21.43309pt too wide) in paragraph at lines 14--15
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 25--26
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 27--28
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 38--39
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 40--41
 [][]
  []
 
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 52--53
-[][]
- []
-
-[15
+[18
 
 ]
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 60--61
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 54--55
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 68--69
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 62--63
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 79--80
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 71--72
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 89--90
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 83--84
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 98--99
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 95--96
 [][]
  []
 
-[16]
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 107--108
-[][]
- []
-
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 116--117
+[19]
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 106--107
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 125--126
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 118--119
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 134--135
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 127--128
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 143--144
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 138--139
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 151--152
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 149--150
 [][]
  []
 
-[17]
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 160--161
+[20]
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 159--160
 [][]
  []
 
-) (./schalkley16.tex [18]
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 170--171
+[][]
+ []
+
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 181--182
+[][]
+ []
+
+) (./schalkley16.tex [21]
 Chapter 5.
 
 Overfull \hbox (21.43309pt too wide) in paragraph at lines 14--15
@@ -428,83 +432,83 @@ Overfull \hbox (21.43309pt too wide) in paragraph at lines 14--15
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 25--26
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 28--29
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 38--39
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 44--45
 [][]
  []
 
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 52--53
-[][]
- []
-
-[19
+[22
 
 ]
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 60--61
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 58--59
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 68--69
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 67--68
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 79--80
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 76--80
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 89--90
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 86--87
+[][]
+ []
+
+[23]
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 102--103
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 98--99
-[][]
- []
-
-[20]
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 107--108
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 114--115
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 116--117
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 127--128
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 125--126
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 136--137
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 134--135
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 147--148
+[][]
+ []
+
+[24]
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 157--158
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 143--144
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 170--171
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 151--152
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 182--183
 [][]
  []
 
-[21]
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 160--161
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 194--195
 [][]
  []
 
-) (./ngeiger16.tex [22]
+) (./ngeiger16.tex [25]
 Chapter 6.
 
 Overfull \hbox (21.43309pt too wide) in paragraph at lines 14--15
@@ -526,7 +530,7 @@ Overfull \hbox (21.43309pt too wide) in paragraph at lines 52--53
 [][]
  []
 
-[23
+[26
 
 ]
 Overfull \hbox (21.43309pt too wide) in paragraph at lines 60--61
@@ -553,7 +557,7 @@ Overfull \hbox (21.43309pt too wide) in paragraph at lines 98--99
 [][]
  []
 
-[24]
+[27]
 Overfull \hbox (21.43309pt too wide) in paragraph at lines 107--108
 [][]
  []
@@ -583,12 +587,12 @@ Overfull \hbox (21.43309pt too wide) in paragraph at lines 151--152
 [][]
  []
 
-[25]
+[28]
 Overfull \hbox (21.43309pt too wide) in paragraph at lines 160--161
 [][]
  []
 
-) (./bhixsonsimeral16.tex [26]
+) (./bhixsonsimeral16.tex [29]
 Chapter 7.
 
 Overfull \hbox (21.43309pt too wide) in paragraph at lines 14--15
@@ -596,39 +600,34 @@ Overfull \hbox (21.43309pt too wide) in paragraph at lines 14--15
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 25--26
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 26--27
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 38--39
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 40--41
 [][]
  []
 
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 52--53
-[][]
- []
-
-[27
+[30
 
 ]
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 60--61
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 54--55
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 68--69
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 62--63
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 79--80
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 72--73
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 89--90
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 85--86
 [][]
  []
 
@@ -637,28 +636,23 @@ Overfull \hbox (21.43309pt too wide) in paragraph at lines 98--99
 [][]
  []
 
-[28]
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 107--108
+[31]
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 108--109
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 116--117
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 121--122
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 125--126
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 130--131
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 134--135
-[][]
- []
-
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 143--144
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 140--141
 [][]
  []
 
@@ -667,12 +661,22 @@ Overfull \hbox (21.43309pt too wide) in paragraph at lines 151--152
 [][]
  []
 
-[29]
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 160--161
+[32]
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 165--166
 [][]
  []
 
-) (./tleota16.tex [30]
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 177--178
+[][]
+ []
+
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 187--188
+[][]
+ []
+
+) (./tleota16.tex [33]
 Chapter 8.
 
 Overfull \hbox (21.43309pt too wide) in paragraph at lines 14--15
@@ -694,7 +698,7 @@ Overfull \hbox (21.43309pt too wide) in paragraph at lines 52--53
 [][]
  []
 
-[31
+[34
 
 ]
 Overfull \hbox (21.43309pt too wide) in paragraph at lines 60--61
@@ -721,7 +725,7 @@ Overfull \hbox (21.43309pt too wide) in paragraph at lines 98--99
 [][]
  []
 
-[32]
+[35]
 Overfull \hbox (21.43309pt too wide) in paragraph at lines 107--108
 [][]
  []
@@ -751,12 +755,12 @@ Overfull \hbox (21.43309pt too wide) in paragraph at lines 151--152
 [][]
  []
 
-[33]
+[36]
 Overfull \hbox (21.43309pt too wide) in paragraph at lines 160--161
 [][]
  []
 
-) (./alien16.tex [34]
+) (./alien16.tex [37]
 Chapter 9.
 
 Overfull \hbox (21.43309pt too wide) in paragraph at lines 14--15
@@ -769,54 +773,44 @@ Overfull \hbox (21.43309pt too wide) in paragraph at lines 25--26
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 38--39
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 40--41
 [][]
  []
 
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 52--53
-[][]
- []
-
-[35
+[38
 
 ]
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 60--61
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 55--56
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 68--69
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 64--65
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 79--80
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 73--74
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 89--90
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 85--86
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 98--99
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 102--103
 [][]
  []
 
-[36]
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 107--108
-[][]
- []
-
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 116--117
+[39]
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 113--114
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 125--126
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 124--125
 [][]
  []
 
@@ -826,21 +820,31 @@ Overfull \hbox (21.43309pt too wide) in paragraph at lines 134--135
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 143--144
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 146--147
+[][]
+ []
+
+[40]
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 158--159
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 151--152
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 173--174
 [][]
  []
 
-[37]
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 160--161
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 186--187
 [][]
  []
 
-) (./angon16.tex [38]
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 196--197
+[][]
+ []
+
+) (./angon16.tex [41]
 Chapter 10.
 
 Overfull \hbox (21.43309pt too wide) in paragraph at lines 14--15
@@ -857,14 +861,14 @@ Overfull \hbox (21.43309pt too wide) in paragraph at lines 38--39
 [][]
  []
 
+[42
 
+]
 Overfull \hbox (21.43309pt too wide) in paragraph at lines 52--53
 [][]
  []
 
-[39
 
-]
 Overfull \hbox (21.43309pt too wide) in paragraph at lines 60--61
 [][]
  []
@@ -879,7 +883,7 @@ Overfull \hbox (21.43309pt too wide) in paragraph at lines 79--80
 [][]
  []
 
-
+[43]
 Overfull \hbox (21.43309pt too wide) in paragraph at lines 89--90
 [][]
  []
@@ -889,7 +893,7 @@ Overfull \hbox (21.43309pt too wide) in paragraph at lines 98--99
 [][]
  []
 
-[40]
+
 Overfull \hbox (21.43309pt too wide) in paragraph at lines 107--108
 [][]
  []
@@ -904,7 +908,7 @@ Overfull \hbox (21.43309pt too wide) in paragraph at lines 125--126
 [][]
  []
 
-
+[44]
 Overfull \hbox (21.43309pt too wide) in paragraph at lines 134--135
 [][]
  []
@@ -914,17 +918,30 @@ Overfull \hbox (21.43309pt too wide) in paragraph at lines 143--144
 [][]
  []
 
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 146.
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 151--152
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 146.
+
+Overfull \hbox (0.80606pt too wide) in paragraph at lines 148--149
+[]\OT1/cmr/m/n/10 Sweep phase-all cells in the heap that have not been speci-fi
+-ally marked
+ []
+
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 155--156
 [][]
  []
 
-[41]
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 160--161
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 164--165
 [][]
  []
 
-) (./hnguyen16.tex [42]
+[45]) (./hnguyen16.tex [46]
 Chapter 11.
 
 Overfull \hbox (21.43309pt too wide) in paragraph at lines 14--15
@@ -934,127 +951,6 @@ Overfull \hbox (21.43309pt too wide) in paragraph at lines 14--15
 
 Overfull \hbox (21.43309pt too wide) in paragraph at lines 25--26
 [][]
- []
-
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 38--39
-[][]
- []
-
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 52--53
-[][]
- []
-
-[43
-
-]
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 60--61
-[][]
- []
-
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 68--69
-[][]
- []
-
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 79--80
-[][]
- []
-
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 89--90
-[][]
- []
-
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 98--99
-[][]
- []
-
-[44]
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 107--108
-[][]
- []
-
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 116--117
-[][]
- []
-
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 125--126
-[][]
- []
-
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 134--135
-[][]
- []
-
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 143--144
-[][]
- []
-
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 151--152
-[][]
- []
-
-[45]
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 160--161
-[][]
- []
-
-) (./srudnick18.tex [46]
-Chapter 12.
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 14--15
-[][]
- []
-
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 25--26
-[][]
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.27 ...=\" has its own token, \textit{equal_sign}
-                                                  . And so on, all down the ...
-
-? 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 27.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 27.
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.27 ...=\" has its own token, \textit{equal_sign}
-                                                  . And so on, all down the ...
-
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.28 
-     
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.28 
-     
-? 
-
-Overfull \hbox (71.95801pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/n/10 its own to-ken, \OT1/cmr/m/it/10 equal$[]\OML/cmm/m/it/10 ign:A
-ndsoon; alldownthelineofreservedwords; characters; anduser \OMS/cmsy/m/n/10 ^^@
-
  []
 
 
@@ -1085,32 +981,81 @@ Overfull \hbox (21.43309pt too wide) in paragraph at lines 79--80
  []
 
 [48]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.83 ...uage usually function on the order of O(n^
-                                                  3).
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.84 
-     
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.84 
-     
-? 
-! Extra }, or forgotten \endgroup.
-\@par ... \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.84 
-     
-? 
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 89--90
+[][]
+ []
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 91--92
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 98--99
+[][]
+ []
+
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 107--108
+[][]
+ []
+
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 116--117
+[][]
+ []
+
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 125--126
+[][]
+ []
+
+[49]
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 134--135
+[][]
+ []
+
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 143--144
+[][]
+ []
+
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 151--152
+[][]
+ []
+
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 160--161
+[][]
+ []
+
+) (./srudnick18.tex [50]
+Chapter 12.
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 14--15
+[][]
+ []
+
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 31--32
+[][]
+ []
+
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 48--49
+[][]
+ []
+
+[51
+
+]
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 66--67
+[][]
+ []
+
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 78--79
+[][]
+ []
+
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 89--90
 [][]
  []
 
@@ -1119,66 +1064,52 @@ Overfull \hbox (21.43309pt too wide) in paragraph at lines 100--101
 [][]
  []
 
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 111--112
+[52]
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 115--116
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 120--121
-[][]
- []
-
-[49]
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 129--130
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 126--127
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 138--139
-[][]
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.140 ...s supposed to be incremented is not! \ast
-                                                   gasp \ast
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.141 
-      
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.141 
-      
-? 
-! Extra }, or forgotten \endgroup.
-\@par ... \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.141 
-      
-? 
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 147--148
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 144--145
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 159--160
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 153--154
 [][]
  []
 
-[50]
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 168--169
+[53]
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 166--167
 [][]
  []
 
-) (./ksayrs17.tex [51]
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 179--180
+[][]
+ []
+
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 191--192
+[][]
+ []
+
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 205--206
+[][]
+ []
+
+[54]
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 216--217
+[][]
+ []
+
+) (./ksayrs17.tex [55]
 Chapter 13.
 
 Overfull \hbox (21.43309pt too wide) in paragraph at lines 14--15
@@ -1191,163 +1122,79 @@ Overfull \hbox (21.43309pt too wide) in paragraph at lines 25--26
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 38--39
-[][]
- []
-
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 52--53
-[][]
- []
-
-[52
-
-]
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 60--61
-[][]
- []
-
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 68--69
-[][]
- []
-
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 79--80
-[][]
- []
-
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 89--90
-[][]
- []
-
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 98--99
-[][]
- []
-
-[53]
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 107--108
-[][]
- []
-
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 116--117
-[][]
- []
-
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 125--126
-[][]
- []
-
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 134--135
-[][]
- []
-
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 143--144
-[][]
- []
-
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 151--152
-[][]
- []
-
-[54]
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 160--161
-[][]
- []
-
-) (./cseebach18.tex [55]
-Chapter 14.
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 14--15
-[][]
- []
-
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 25--26
-[][]
- []
-
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 38--39
-[][]
- []
-
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 52--53
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 39--40
 [][]
  []
 
 [56
 
 ]
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 60--61
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 53--54
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 68--69
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 61--62
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 79--80
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 69--70
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 89--90
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 80--81
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 98--99
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 92--93
 [][]
  []
 
 [57]
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 107--108
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 101--102
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 116--117
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 110--111
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 125--126
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 119--120
 [][]
  []
 
 
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 134--135
-[][]
- []
-
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 143--144
-[][]
- []
-
-
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 151--152
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 128--129
 [][]
  []
 
 [58]
-Overfull \hbox (21.43309pt too wide) in paragraph at lines 160--161
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 137--138
 [][]
  []
 
-) (./jsterchele17.tex [59]
-Chapter 15.
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 146--147
+[][]
+ []
+
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 156--157
+[][]
+ []
+
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 165--166
+[][]
+ []
+
+) (./cseebach18.tex [59]
+Chapter 14.
 
 Overfull \hbox (21.43309pt too wide) in paragraph at lines 14--15
 [][]
@@ -1430,8 +1277,8 @@ Overfull \hbox (21.43309pt too wide) in paragraph at lines 160--161
 [][]
  []
 
-) (./hwin16.tex [63]
-Chapter 16.
+) (./jsterchele17.tex [63]
+Chapter 15.
 
 Overfull \hbox (21.43309pt too wide) in paragraph at lines 14--15
 [][]
@@ -1514,29 +1361,111 @@ Overfull \hbox (21.43309pt too wide) in paragraph at lines 160--161
 [][]
  []
 
-) [67] (./qa315-09oct2015.aux) ) 
+) (./hwin16.tex [67]
+Chapter 16.
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 14--15
+[][]
+ []
+
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 25--26
+[][]
+ []
+
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 38--39
+[][]
+ []
+
+[68
+
+]
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 52--53
+[][]
+ []
+
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 60--61
+[][]
+ []
+
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 68--69
+[][]
+ []
+
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 79--80
+[][]
+ []
+
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 89--90
+[][]
+ []
+
+[69]
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 98--99
+[][]
+ []
+
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 107--108
+[][]
+ []
+
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 116--117
+[][]
+ []
+
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 125--126
+[][]
+ []
+
+[70]
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 134--135
+[][]
+ []
+
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 143--144
+[][]
+ []
+
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 151--152
+[][]
+ []
+
+
+Overfull \hbox (21.43309pt too wide) in paragraph at lines 160--161
+[][]
+ []
+
+) [71] (./qa315-09oct2015.aux) ) 
 Here is how much of TeX's memory you used:
- 1521 strings out of 493304
- 21368 string characters out of 6139871
- 76235 words of memory out of 5000000
- 4986 multiletter control sequences out of 15000+600000
+ 1539 strings out of 494989
+ 21678 string characters out of 6180577
+ 73099 words of memory out of 5000000
+ 4759 multiletter control sequences out of 15000+600000
  8401 words of font info for 30 fonts, out of 8000000 for 9000
- 957 hyphenation exceptions out of 8191
- 26i,6n,32p,412b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36 hyphenation exceptions out of 8191
+ 26i,6n,32p,1037b,286s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
-0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on qa315-09oct2015.pdf (67 pages, 172989 bytes).
+cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on qa315-09oct2015.pdf (71 pages, 219314 bytes).
 PDF statistics:
- 261 PDF objects out of 1000 (max. 8388607)
- 180 compressed objects within 2 object streams
+ 266 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
