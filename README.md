@@ -20,3 +20,6 @@ Add and commit to your local repository.
 Then push to your GitHub repository.
 Finally, send a pull request to me.
 
+Read about "syncing with a fork" on the Web to learn
+how to keep your copy of this repository up-to-date with
+my copy.
