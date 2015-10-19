@@ -276,6 +276,7 @@
     in Java? Easier in Java than in Ada?
 
   \begin{answer}
+    Ada's for loop limits the scope of the loop variable to the loop body. After the loop body, loop variables are not defined and their values are not relevant. Even if a variable with the same name is defined before the loop, a loop variable of the same name can be created without changing the other variable at all. It might be easier to iterate through ranges of numbers in Ada because reusing variables won't mess them up later outside the loop. However, Java would be better if you want to iterate through something and keep the loop variable to use later on.
    
   \end{answer}
 
@@ -283,6 +284,7 @@
     of Ada are non-deterministic?
 
   \begin{answer}
+    Guarded commands in Ada are nondeterministically chosen for execution when more than one of the statements are evaluated to true. This means that if there are three guarded statements and two of the three evaluate to true, then each time the program will use one of the two statements. It will not always use the one that appears first nor the one that appears last, but rather it will choose between them nondeterministically or randomly at times.
    
   \end{answer}
 
@@ -290,6 +292,7 @@
     prototypes. What is a function prototype?
 
   \begin{answer}
+    A function prototype is a function declaration taht gives the function's name and type signature, but does not specify the function body. It is also referred to as a function interface at times. In other languages theses are uncommon because subprograms do not need declarations since they do no need to be defined before they are called. 
    
   \end{answer}
 
@@ -300,7 +303,7 @@
     does the method belong in the second case?
 
   \begin{answer}
-   
+   If a method is defined outside of the definition of any class that the programmer writes then the method belongs to the root object, \textbf{Object}.
   \end{answer}
 
   \item Distinguish between positional and keyword parameters.
