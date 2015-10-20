@@ -1,0 +1,174 @@
+
+\chapter{Ally Lien}
+
+\begin{enumerate}
+  \item Most programming languages require the use of brackets to
+    enclose the index in a reference to an element of an array.
+  \begin{enumerate}
+    \item Identify a language the requires the use of parentheses
+      to enclose the index in a reference to an element of an array.
+    \item Why did the designers of the language choose parentheses
+      rather than brackets?
+    \end{enumerate}
+
+  \begin{answer}
+
+  \begin{enumerate}
+    \item pre-90 FORTRAN or PL/I
+    \item No other suitable characters were available
+    \end{enumerate}
+
+    \end{answer}
+    
+  \item What is the relationship between a lexeme and a token?
+
+  \begin{answer}
+
+    A token is a category of a language's lexemes, and a lexeme is
+    the lowest-level syntactic units. Lexemes include identifiers, 
+    literals, operators, and special words.
+
+    \end{answer}
+
+  \item
+  \begin{enumerate}
+    \item What kind of symbols are found at the internal nodes of a
+      parse tree?
+    \item What kind of symbols are found at the leaves of a parse tree?
+    \end{enumerate}
+
+  \begin{answer}
+
+  \begin{enumerate}
+    \item Nonterminal symbols are found at the internal nodes of the
+	parse tree.
+    \item Terminal symbols are found at the leaves of the parse tree
+    \end{enumerate}
+
+    \end{answer}
+
+
+  \item One of the most significant contributions from the developers
+    of ALGOL 60 also limited the success of that language. What was
+    that contribution?
+
+  \begin{answer}
+
+    BNF (Backus-Naur form) became the way to describe programming 
+	languages
+
+    \end{answer}
+
+  \item What problem were the creators of Common LISP trying to solve?
+
+  \begin{answer}
+
+    They were trying to solve the problem of the lack of portability of programs written in different dialects.
+
+    \end{answer}
+
+  \item What is an ambiguous context free grammar?
+
+  \begin{answer}
+
+    It is a grammmar that generates more than one distinct parse tree, because it specifies less syntactic structure.
+
+    \end{answer}
+
+  \item Contrast the complexity of algorithms that can parse strings
+    that conform to the most general kinds of context free grammars
+    and the complexity of the algorithms that can parse strings that
+    conform to the grammars of programming languages?
+
+  \begin{answer}
+
+    Parsing algorithms that parse strings of the most general grammars have a complexity of O(n^3), while algorithms that parse the grammmars of programming languages have a complexity of O(n). Algorithms for general grammars take much longer than those used for grammars of programming languages. It takes on order of the cube of the length of string to be parsed using a general grammar algorithm, while it only takes a linear relation of the string to be parsed in the algorithms for programming languages.
+
+    \end{answer}
+
+  \item Java represents characters with Unicode. It is the first
+    widely used programming language with this feature. What is the
+    significance of this feature?
+
+  \begin{answer}
+
+    The language now had a way to encode all of the world's languages using a global standard.This limited the confusion between computers
+
+    \end{answer}
+
+  \item How does the binary coded decimal type differ from the
+    floating point type?
+
+  \begin{answer}
+
+    Decimal types can precisely store decimal values, but floating-points cannot. It also takes more memory to store decimals than it does to store numbers in binary.
+
+    \end{answer}
+
+  \item Identify a user-defined ordinal type in the Java programming
+    language.
+
+  \begin{answer}
+
+    Java has enumeration types, where all the possible values are provided in the definition.
+
+    \end{answer}
+
+  \item Mathematicians and programmers might have different ideas
+    about the precedence of Boolean operators. Explain.
+
+  \begin{answer}
+
+    Mathematicians have a hierarchy of boolean operations, just like most programming languages. In some programming languages, boolean operators have a higher precedence than relational operators, so programmers will have a different order doing things.
+
+    \end{answer}
+
+  \item Programmers should use \verb+===+ rather than \verb+==+ to
+    test the equality of the values of two expressions in JavaScript. Why?
+
+  \begin{answer}
+
+    If a (===) is used, then no type conversion is done, so the types must be the same to be considered equal. The (==) allows for type conversion. If two values are not the same type, (==) and (===) may return different answers.
+
+    \end{answer}
+
+  \item Describe a hazard of allowing short-circuited evaluation
+    of expressions and side effects in expressions at the same time.
+
+  \begin{answer}
+
+    Short-circuted evaluation allows for an expression to be evaluated without evaluating all of the operands and/or operators. If side effects occur, the type of a parameter or global variable may be changed. This could change the value of the answer to a part of the expression, changing the value of the whole expression, creating an error in the program if it short circuits the expression. 
+
+    \end{answer}
+
+  \item Briefly describe the three steps in the mark-sweep algorithm
+    for garbage collection.
+
+  \begin{answer}
+
+    1. Alls the cells in the heap have their indicators set to indicate they are garbage.
+2. Every pointer in the program is traced to the heap. All reachable cells are marked as 'not garbage.'
+3. The sweep phase is when all the cells in the heap that have not been specifically marked as being used are returned to the list of available space.
+
+    \end{answer}
+
+  \item What led Yukihiro Matsumoto to create the Ruby programming language?
+
+  \begin{answer}
+
+    He was dissatisfied with Perl and Python, because neither of them were purely object-oriented languages. 
+
+    \end{answer}
+
+  \item What did Microsoft aim to achieve with its development of the
+    C\# language?
+
+  \begin{answer}
+
+    They wanted to create a language for development in the .NET Framework, and other component-based software.They aimed to improve C++ and Java.
+
+    \end{answer}
+
+  \end{enumerate}
+
+
