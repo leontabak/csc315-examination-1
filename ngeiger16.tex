@@ -211,7 +211,7 @@
     in a language?
 
  \begin{answer}
-    (2)
+    While it is possible to use only one (GOTO), the minimum number of control statements in a language which does not use GOTO is two. One for choosing between control flow paths, and one for logically controlled iterations. (348)
  \end{answer}
  
   \item What is the one question that applies in the
@@ -219,7 +219,7 @@
     iteration?
 
  \begin{answer}
-    (3)
+    Should the control structure have multiple entries? (349)
  \end{answer}
  
   \item What is an advantage of requiring that
@@ -254,7 +254,7 @@
     Give examples.
 
  \begin{answer}
-    (7)
+    The IBM 704 influenced the design of control statements. (348)
      \end{answer}
 
   \item Who most famously warned of the dangers of using the
@@ -262,7 +262,7 @@
     say about the use of the \textbf{goto} statement?
 
  \begin{answer}
-    (8)
+    Edsger Dijkstra noted “The goto statement as it stands is just too primitive; it is too much an invitation to make a mess of one’s program.” Donald Knuth argued there were occasions when the efficiency of the goto outweighed its harm to readability. (376)
      \end{answer}
 
   \item Describes Ada's \textbf{for} loop. Are there some
@@ -270,21 +270,21 @@
     in Java? Easier in Java than in Ada?
 
  \begin{answer}
-    (9)
+    Ada’s for loop can use any ordinal type variable for its counter. Arrays with ordinal type subscripts can be conveniently processed. (261)
    \end{answer}
    
   \item What does it mean to say that the guarded commands
     of Ada are non-deterministic?
 
  \begin{answer}
-    (10)
+    Guarded commands in Ada are nondeterministically chosen for execution when more than one of the statements are evaluated to true. This means that if there are three guarded statements and two of the three evaluate to true, then each time the program will use one of the two statements. It will not always use the one that appears first nor the one that appears last, but rather it will choose between them non-deterministically or randomly.
      \end{answer}
 
   \item The header files in a C program contain function
     prototypes. What is a function prototype?
 
  \begin{answer}
-   (11)
+   A function prototype is a function declaration that gives the function's name and type signature, but does not specify the function body. It is also referred to as a function interface at times. In other languages theses are uncommon because subprograms do not need declarations since they do no need to be defined before they are called.
  \end{answer}
 
   \item Every method in a Ruby program belongs to a class.
@@ -294,26 +294,26 @@
     does the method belong in the second case?
 
  \begin{answer}
-    (12)
+     If a method is defined outside of the definition of any class that the programmer writes then the method belongs to the root object, \textbf{Object}.
      \end{answer}
 
   \item Distinguish between positional and keyword parameters.
 
  \begin{answer}
-    (13)
+    Positional parameters are bound based on the order in which they are given to the function. Keyword parameters are when the name of the formal parameter to which an actual parameter is to be bound is specified with the actual parameter in a call. This allows them to be input in any order
      \end{answer}
 
   \item Ruby blocks are closures. What does that mean?
 
  \begin{answer}
-     14
+     A closure is an anonymous function which can be passed as a parameter. Also, Ruby doesn't nest scope, so variables defined in a method are not accessible outside of the method (say, in the class which defines them).
      \end{answer}
    
 
   \item What is a pure function?
 
 \begin{answer}
-    (15)
+    A pure function is a function where the return value is only determined by its input values, without observable side effects.
 \end{answer}
 
   \item Some languages give programmers means to define
@@ -321,7 +321,7 @@
     a serious limitation?
 
 \begin{answer}
-    16
+    It does not seem to be a serious limitation, it just means that performing procedures in Java is more verbose because it requires that the programmer instantiate the class with any needed methods.
     \end{answer}
 
   \item Declarations of formal parameters in an Ada procedure
@@ -331,7 +331,7 @@
     What is the purpose of those reserved words?
  
  \begin{answer}
-    (17) Ada constrains but gives up the flexability of Java.
+    Ada allows the programmer to specify in mode, out mode, and inout mode for each formal parameter.  This means that they can receive data from the actual parameter, they can send data to the actual parameter, or they can do both.
     \end{anwser}
 
   \item The C language imposes a constraint upon programmers
@@ -341,7 +341,7 @@
     programmers who use that language?
 
 \begin{answer}
-    18 Java array carries along the length of the array where as we need to help C know the length of its array.
+   In C, programmers are required to pass the length of an array to a method. Specifying the length of an array (like in C) is unnecessary because Java arrays store a pointer to an address containing their length.
     \end{end}
 
   \item An activation record contains a return
@@ -350,12 +350,12 @@
   \begin{enumerate}
     \item To what does the return address point?
       \begin{answer}
-      (19a)
+      The return address usually consists of a pointer to the instruction following the call in the code segment of the calling program unit.
       \end{answer}
 
     \item To what does the dynamic link point?
       \begin{answer}
-        (19b)
+        The dynamic link points to the base of the activation record instance of the caller.
         \end{answer}
 
     \end{enumerate}
@@ -365,14 +365,14 @@
     circumstances?
 
   \begin{answer}
-    (20)
+    In a recursive program there can be multiple activation records (although they will be incomplete) for a single subprogram.
     \end{answer}
 
   \item How (or why?) does the LIFO protocol apply to
     calls to and returns from subprograms?
   
   \begin{answer}
-    (21)
+    LIFO allows for subprograms to be nested within one another and for subprograms to be used as parameters within other subprograms. (417)
     \end{answer}
 
   \item Which important development in computer architecture
@@ -387,7 +387,7 @@
   \item A dynamic chain contains a history of what?
 
 \begin{answer}
-    (23)
+    Dynamic chain represents the dynamic history of how execution got to its current position, which is always in the subprogram code whose activation record instance is on top of the stack.
     \end{answer}
  
 
@@ -395,14 +395,14 @@
     the address of a local variable in a subprogram?
 
 \begin{answer}
-    (24)
+    To compute the address of a local variable you need the (chain_offset, local_offset) pair.
     \end{answer}
 
 
   \item How does a Ruby module differ from a class?
 
     \begin{answer}
-    (25)
+    Modules are unlike classes in that they cannot be instantiated or subclassed and do not define variables. Methods that are defined in a module include the  module’s name in their names.
     \end{answer}
 
   \item Memory for variables can be allocated on the heap
@@ -417,25 +417,25 @@
     of genericity to Java?
 
    \begin{answer}
-    (27)
+    Generics allow a type or method to operate on objects of various types while providing compile-time type safety.
     \end{answer}
 
   \item What is the purpose of the static chain?
 
     \begin{answer}
-    (28)
+    The static chain is a path of pointers which go from each function to its parent. They allow child subprograms to use variables which are local to their parent, grandparent, or farther up, without needing to copy those variables to the call stack.
     \end{answer}
   \item What is a singleton?
 
     \begin{answer}
-    (29)
+    A singleton is a class which provides a global access point to a single instance. This is useful for tasks which only need one point of access, like a file system.
     \end{answer}
 
   \item What are the two parts of the definition 
     of an abstract data type?
 
    \begin{answer}
-    (30)
+    1. A type definition which allows program units to declare variables of the type but hides the representation of objects of the type. 2. A set of operations for manipulating objects of the type.
     \end{answer}
 
   \end{enumerate}
