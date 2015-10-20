@@ -24,7 +24,7 @@
 
   \begin{answer}
 
-    A lexeme is the lowest-level syntactc unit. They are partitioned into groups. 
+    A lexeme is the lowest-level syntactc unit. They are partitioned into groups.
 Each lexeme group is represented by a token. So, a token is a category of its lexemes.
 
     \end{answer}
@@ -81,7 +81,7 @@ Each lexeme group is represented by a token. So, a token is a category of its le
 
     Parsing algorithms that work for any unambiguous grammar are complicated
 and inefficient. The complexity of such algorithms is O(n3). This relatively large amount of time is required because these algorithms frequently must back up and reparse part of the sentence being analyzed.Backing up the parser also requires that part of the parsemtree being constructed must be dismantled and rebuilt.
-	In terms of parsing, faster algorithms have been found that work for only a subset of the set of all possible grammars. These algorithms are acceptable as long as the subset includes grammars that describe programming languages.
+    In terms of parsing, faster algorithms have been found that work for only a subset of the set of all possible grammars. These algorithms are acceptable as long as the subset includes grammars that describe programming languages.
 
     \end{answer}
 
@@ -177,24 +177,48 @@ and inefficient. The complexity of such algorithms is O(n3). This relatively lar
 \begin{enumerate}
   \item The design of which machine influenced the design
     of the control statements in FORTRAN?
+    
+    \begin{answer}
+    IBM 704
+    \end{answer}
 
   \item How many different kinds of control statements
     must the designer of a programming language include
     in a language?
+    
+    \begin{answer}
+    While it is possible to use only one (GOTO), the minimum number of control statements in a language which does not use GOTO is two. One for choosing between control flow paths, and one for logically controlled iterations.
+    \end{answer}
 
   \item What is the one question that applies in the
     design of all statements that allow selection or
     iteration?
+    
+    \begin{answer}
+Should the control structure have multiple entries? 
+    \end{answer}
 
   \item What is an advantage of requiring that
     the \textbf{then} and \textbf{else} clauses of
     an \textbf{if} statement be compound statements?
+    
+    \begin{answer}
+ Requiring compound statements helps increase the readability and writability for programmers when using nested selector statements, that otherwise can get very messy and complicated.
+    \end{answer}
 
   \item How does the \textbf{switch} statement in C\#
     differ from the \textbf{switch} statement in Java?
-
+    
+    \begin{answer}
+    In Java, the switch statement does not allow case expressions anywhere except the top level in the body of the switch.  C\#  allows the execution of more than one segment. In C\#, the control expressions as well as case statements can be strings. (357)
+    
+    \end{answer}
   \item Distinguish between 2 statements in Ruby
     that correspond to Java's \textbf{switch} statement.
+
+    \begin{answer}  
+    Case expressions are the Ruby equivalent of Java's \textbf{switch} statement. One is semantically similar to nested if statements with case - when - then. The other is with boolean expressions being evaluated one at a time from top to bottom. The value of this case expression is equivalent to the value of the \textbf{then} statement corresponding to the first \textit{true} \textbf{when} statement.
+    \end{answer}
 
   \item Features of a programming language sometimes persist
     longer than a feature of computing hardware that inspired
@@ -204,20 +228,43 @@ and inefficient. The complexity of such algorithms is O(n3). This relatively lar
     to take advantage of that feature in hardware.
 
     Give examples.
+    \begin{answer}
+    The IBM 704 influenced the design of control statements, and prompted the development of Fortran. 
+    The Algol standard used several different syntaxes which, among other things, allowed Europeans to use a comma to denote a decimal point, while Americans could continue to use a period.
+	Most of the popular languages of the past 50 years have been designed around the von Neumann architecture. These are called imperative languages. In a von Neumann computer, both data and programs are stored in the same memory. The CPU, which executes instructions, is separate from the memory. Therefore, instructions and data must be transmitted, or piped, from memory to the CPU. Results of operations in the CPU must be moved back to memory. Nearly all digital computers built since the 1940s have been based on the von Neumann architecture.
+    The \textbf{register} keyword in C is a hint to the compiler that a variable will be used repeatedly, and so it should be stored in the CPU rather than in memory. However, modern compilers are far better at optimization than programmers, so this keyword is outdated and unnecessary.
+    \end{answer}
 
   \item Who most famously warned of the dangers of using the
     \textbf{goto} statement? What did Donald Knuth have to
     say about the use of the \textbf{goto} statement?
+    
+    \begin{answer}
+    Edsger Dijkstra warned that it would damage readability. Donald Knuth thought that they might sometimes be more efficient than other statements, so it was worth having them despite the poor readability.
+    \end{answer}
 
   \item Describes Ada's \textbf{for} loop. Are there some
     kinds of iteration that might be easier in Ada than
     in Java? Easier in Java than in Ada?
 
+\begin{answer}
+        Ada’s for loop can use any ordinal type variable for its counter. Arrays with ordinal type subscripts can be conveniently processed. For loops in Java are more flexible - can have infinite loops, change loop variable inside body, etc. but is potentially more confusing to read. Since Ada's for loops are stricter, they are easier to read.
+
+    \end{answer}
+    
   \item What does it mean to say that the guarded commands
     of Ada are non-deterministic?
+    
+    \begin{answer}
+    Guarded commands in Ada are nondeterministically chosen for execution when more than one of the statements are evaluated to true. This means that if there are three guarded statements and two of the three evaluate to true, then each time the program will use one of the two statements. It will not always use the one that appears first nor the one that appears last, but rather it will choose between them non-deterministically or randomly.
+    \end{answer}
 
   \item The header files in a C program contain function
     prototypes. What is a function prototype?
+    
+    \begin{answer}
+    	A function prototype is a function declaration that gives the function's name and type signature, but does not specify the function body. 
+    \end{answer}
 
   \item Every method in a Ruby program belongs to a class.
     A programmer can place a definition of a method inside
@@ -225,69 +272,139 @@ and inefficient. The complexity of such algorithms is O(n3). This relatively lar
     of any class that the programmer writes. To which class
     does the method belong in the second case?
 
+    \begin{answer}
+If a method is defined outside of the definition of any class that the programmer writes then the method belongs to the root object, \textbf{Object}
+    \end{answer}
+
   \item Distinguish between positional and keyword parameters.
+
+	\begin{answer}
+Positional parameters are bound based on the order in which they are given to the function. Keyword parameters are when the name of the formal parameter to which an actual parameter is to be bound is specified with the actual parameter in a call. This allows them to be input in any order.
+	\end{answer}
 
   \item Ruby blocks are closures. What does that mean?
 
+    \begin{answer}
+      A closure is an anonymous function which can be passed as a parameter. Also, Ruby doesn't nest scope, so variables defined in a method are not accessible outside of the method (say, in the class which defines them).
+    \end{answer}
   \item What is a pure function?
+    \begin{answer}
+A pure function is a function where the return value is only determined by its input values, without observable side effects.
+    \end{answer}
 
   \item Some languages give programmers means to define
     both functions and procedures. Java doe not. Is that
     a serious limitation?
-
+  \begin{answer}
+      It does not seem to be a serious limitation, it just means that performing procedures in Java is more verbose because it requires that the programmer instantiate the class with any needed methods.
+   \end{answer}
   \item Declarations of formal parameters in an Ada procedure
     can include, in addition to the names and types of the
     parameters, reserved words that do not appear in declarations
-    in Java programs. 
+    in Java programs.
     What is the purpose of those reserved words?
+    
+        \begin{answer}
+Ada allows the programmer to specify in mode, out mode, and inout mode for each formal parameter.  This means that they can receive data from the actual parameter, they can send data to the actual parameter, or they can do both.
+	\end{answer}
  
   \item The C language imposes a constraint upon programmers
     who want to pass a multidimensional array to a function.
     What is the constraint? How did the design of the Java
-    programming language eliminate that constraint for 
+    programming language eliminate that constraint for
     programmers who use that language?
+
+    	\begin{answer}
+ In C, programmers are required to pass the length of an array to a method. Specifying the length of an array (like in C) is unnecessary because Java arrays store a pointer to an address containing their length.
+        \end{answer}
 
   \item An activation record contains a return
     address, a dynamic link, parameters, and
     local variables.
   \begin{enumerate}
     \item To what does the return address point?
-    \item To what does the dynamic link point?
-    \end{enumerate}
+	\begin{answer}
+ To the instruction following the call in the code segment of the calling program unit
+	\end{answer}
+    \item To what does the dynamic link point? 
+	\begin{answer}
+To the base of the activation record instance of the caller
+	\end{answer}   
+ \end{enumerate}
 
   \item The stack will contain multiple activation
     records for a single subprogram under what
     circumstances?
 
+	\begin{answer}
+In a recursive program there can be multiple activation records (although they will be incomplete) for a single subprogram.
+	\end{answer}
+
   \item How (or why?) does the LIFO protocol apply to
     calls to and returns from subprograms?
+
+	\begin{answer}
+LIFO allows for subprograms to be nested within one another and for subprograms to be used as parameters within other subprograms.
+	\end{answer}
 
   \item Which important development in computer architecture
     has changed the way that the stack is used in some
     systems for facilitating calls to and returns from
     subprograms?
 
+	\begin{answer}
+RISC (reduced instruction set computing) machines have parameters passed in registers in their compilers because RISC machines have more registers than CISC (complex instruction set computing) machines. Chapter 10 assumes parameters are passed in the stack though, as they had been in CISC machines.
+	\end{answer}
+
   \item A dynamic chain contains a history of what?
+
+	\begin{answer}
+Dynamic chain represents the dynamic history of how execution got to its current position, which is always in the subprogram code whose activation record instance is on top of the stack.
+	\end{answer}
 
   \item Which two numbers are needed to compute
     the address of a local variable in a subprogram?
 
+	\begin{answer}
+	(chain_offset, local_offset) pair
+	\end{answer}
+
   \item How does a Ruby module differ from a class?
+
+	\begin{answer}
+Modules are unlike classes in that they cannot be instantiated or subclassed and do not define variables. Methods that are defined in a module include the  module’s name in their names. They're just a collection of constants and methods.
+	\end{answer}
 
   \item Memory for variables can be allocated on the heap
     and on the stack. In which place or places is memory
     allocated for objects in C++? in Java?
 
+	\begin{answer}
+In C++, variables can be allocated to the heap either by making them “static” or by allocating memory with the keyword “new”. However, variables which are initialized during the execution of a function are allocated to the stack. Java behaves the same way. 
+	\end{answer}
+
   \item What problems were solved by the addition
     of genericity to Java?
+        \begin{answer}
+Generics allow a type or method to operate on objects of various types while providing compile-time type safety.
+	\end{answer}
 
   \item What is the purpose of the static chain?
+        \begin{answer}
+The static chain is a path of pointers which go from each function to its parent. They allow child subprograms to use variables which are local to their parent, grandparent, or farther up, without needing to copy those variables to the call stack.
+	\end{answer}
 
   \item What is a singleton?
+    \begin{answer}
+A singleton is a class which provides a global access point to a single instance. This is useful for tasks which only need one point of access, like a file system.
+ \end{answer}
 
-  \item What are the two parts of the definition 
+  \item What are the two parts of the definition
     of an abstract data type?
-
+    \begin{answer}
+1. A type definition which allows program units to declare variables of the type but hides the representation of objects of the type. 2. A set of operations for manipulating objects of the type.
+ \end{answer}
   \end{enumerate}
+
 
 
