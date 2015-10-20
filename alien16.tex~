@@ -63,7 +63,8 @@
 
   \begin{answer}
 
-    They were trying to solve the problem of the lack of portability of programs written in different dialects.
+    They were trying to solve the problem of the lack of portability
+    of programs written in different dialects.
 
     \end{answer}
 
@@ -71,7 +72,8 @@
 
   \begin{answer}
 
-    It is a grammmar that generates more than one distinct parse tree, because it specifies less syntactic structure.
+    It is a grammmar that generates more than one distinct parse tree,
+    because it specifies less syntactic structure.
 
     \end{answer}
 
@@ -82,7 +84,14 @@
 
   \begin{answer}
 
-    Parsing algorithms that parse strings of the most general grammars have a complexity of O(n^3), while algorithms that parse the grammmars of programming languages have a complexity of O(n). Algorithms for general grammars take much longer than those used for grammars of programming languages. It takes on order of the cube of the length of string to be parsed using a general grammar algorithm, while it only takes a linear relation of the string to be parsed in the algorithms for programming languages.
+    Parsing algorithms that parse strings of the most general grammars
+    have a complexity of $O(n^3)$, while algorithms that parse the
+    grammmars of programming languages have a complexity of
+    $O(n)$. Algorithms for general grammars take much longer than those
+    used for grammars of programming languages. It takes on order of
+    the cube of the length of string to be parsed using a general
+    grammar algorithm, while it only takes a linear relation of the
+    string to be parsed in the algorithms for programming languages.
 
     \end{answer}
 
@@ -92,7 +101,9 @@
 
   \begin{answer}
 
-    The language now had a way to encode all of the world's languages using a global standard.This limited the confusion between computers
+    The language now had a way to encode all of the world's languages
+    using a global standard.This limited the confusion between
+    computers
 
     \end{answer}
 
@@ -101,7 +112,9 @@
 
   \begin{answer}
 
-    Decimal types can precisely store decimal values, but floating-points cannot. It also takes more memory to store decimals than it does to store numbers in binary.
+    Decimal types can precisely store decimal values, but
+    floating-points cannot. It also takes more memory to store
+    decimals than it does to store numbers in binary.
 
     \end{answer}
 
@@ -110,7 +123,8 @@
 
   \begin{answer}
 
-    Java has enumeration types, where all the possible values are provided in the definition.
+    Java has enumeration types, where all the possible values are
+    provided in the definition.
 
     \end{answer}
 
@@ -119,7 +133,10 @@
 
   \begin{answer}
 
-    Mathematicians have a hierarchy of boolean operations, just like most programming languages. In some programming languages, boolean operators have a higher precedence than relational operators, so programmers will have a different order doing things.
+    Mathematicians have a hierarchy of boolean operations, just like
+    most programming languages. In some programming languages, boolean
+    operators have a higher precedence than relational operators, so
+    programmers will have a different order doing things.
 
     \end{answer}
 
@@ -128,7 +145,10 @@
 
   \begin{answer}
 
-    If a (===) is used, then no type conversion is done, so the types must be the same to be considered equal. The (==) allows for type conversion. If two values are not the same type, (==) and (===) may return different answers.
+    If a (===) is used, then no type conversion is done, so the types
+    must be the same to be considered equal. The (==) allows for type
+    conversion. If two values are not the same type, (==) and (===)
+    may return different answers.
 
     \end{answer}
 
@@ -137,7 +157,13 @@
 
   \begin{answer}
 
-    Short-circuted evaluation allows for an expression to be evaluated without evaluating all of the operands and/or operators. If side effects occur, the type of a parameter or global variable may be changed. This could change the value of the answer to a part of the expression, changing the value of the whole expression, creating an error in the program if it short circuits the expression. 
+    Short-circuted evaluation allows for an expression to be evaluated
+    without evaluating all of the operands and/or operators. If side
+    effects occur, the type of a parameter or global variable may be
+    changed. This could change the value of the answer to a part of
+    the expression, changing the value of the whole expression,
+    creating an error in the program if it short circuits the
+    expression.
 
     \end{answer}
 
@@ -146,9 +172,12 @@
 
   \begin{answer}
 
-    1. Alls the cells in the heap have their indicators set to indicate they are garbage.
-2. Every pointer in the program is traced to the heap. All reachable cells are marked as 'not garbage.'
-3. The sweep phase is when all the cells in the heap that have not been specifically marked as being used are returned to the list of available space.
+    1. Alls the cells in the heap have their indicators set to
+    indicate they are garbage.  2. Every pointer in the program is
+    traced to the heap. All reachable cells are marked as 'not
+    garbage.'  3. The sweep phase is when all the cells in the heap
+    that have not been specifically marked as being used are returned
+    to the list of available space.
 
     \end{answer}
 
@@ -156,7 +185,8 @@
 
   \begin{answer}
 
-    He was dissatisfied with Perl and Python, because neither of them were purely object-oriented languages. 
+    He was dissatisfied with Perl and Python, because neither of them
+    were purely object-oriented languages.
 
     \end{answer}
 
@@ -165,10 +195,172 @@
 
   \begin{answer}
 
-    They wanted to create a language for development in the .NET Framework, and other component-based software.They aimed to improve C++ and Java.
+    They wanted to create a language for development in the .NET
+    Framework, and other component-based software.They aimed to
+    improve C++ and Java.
 
     \end{answer}
 
   \end{enumerate}
+
+
+
+\section{More questions for discussion and review.}
+
+\begin{enumerate}
+  \item The design of which machine influenced the design
+    of the control statements in FORTRAN?
+
+  \item How many different kinds of control statements
+    must the designer of a programming language include
+    in a language?
+
+  \item What is the one question that applies in the
+    design of all statements that allow selection or
+    iteration?
+
+  \item What is an advantage of requiring that
+    the \textbf{then} and \textbf{else} clauses of
+    an \textbf{if} statement be compound statements?
+
+  \item How does the \textbf{switch} statement in C\#
+    differ from the \textbf{switch} statement in Java?
+
+  \item Distinguish between 2 statements in Ruby
+    that correspond to Java's \textbf{switch} statement.
+
+  \item Features of a programming language sometimes persist
+    longer than a feature of computing hardware that inspired
+    and supported that part of the language's design.
+    Similarly, features of hardware sometimes persist longer
+    than some parts of a language's design that were created
+    to take advantage of that feature in hardware.
+
+    Give examples.
+
+  \item Who most famously warned of the dangers of using the
+    \textbf{goto} statement? What did Donald Knuth have to
+    say about the use of the \textbf{goto} statement?
+
+  \item Describes Ada's \textbf{for} loop. Are there some
+    kinds of iteration that might be easier in Ada than
+    in Java? Easier in Java than in Ada?
+
+  \item What does it mean to say that the guarded commands
+    of Ada are non-deterministic?
+
+  \item The header files in a C program contain function
+    prototypes. What is a function prototype?
+
+  \item Every method in a Ruby program belongs to a class.
+    A programmer can place a definition of a method inside
+    the definition of a class or outside of the definition
+    of any class that the programmer writes. To which class
+    does the method belong in the second case?
+
+  \item Distinguish between positional and keyword parameters.
+
+  \item Ruby blocks are closures. What does that mean?
+
+  \item What is a pure function?
+
+  \item Some languages give programmers means to define
+    both functions and procedures. Java doe not. Is that
+    a serious limitation?
+
+  \item Declarations of formal parameters in an Ada procedure
+    can include, in addition to the names and types of the
+    parameters, reserved words that do not appear in declarations
+    in Java programs. 
+    What is the purpose of those reserved words?
+ 
+  \item The C language imposes a constraint upon programmers
+    who want to pass a multidimensional array to a function.
+    What is the constraint? How did the design of the Java
+    programming language eliminate that constraint for 
+    programmers who use that language?
+
+  \item An activation record contains a return
+    address, a dynamic link, parameters, and
+    local variables.
+  \begin{enumerate}
+    \item To what does the return address point?
+    \item To what does the dynamic link point?
+    \end{enumerate}
+
+  \item The stack will contain multiple activation
+    records for a single subprogram under what
+    circumstances?
+
+  \item How (or why?) does the LIFO protocol apply to
+    calls to and returns from subprograms?
+
+  \item Which important development in computer architecture
+    has changed the way that the stack is used in some
+    systems for facilitating calls to and returns from
+    subprograms?
+
+  \item A dynamic chain contains a history of what?
+
+  \item Which two numbers are needed to compute
+    the address of a local variable in a subprogram?
+
+  \item How does a Ruby module differ from a class?
+
+  \item Memory for variables can be allocated on the heap
+    and on the stack. In which place or places is memory
+    allocated for objects in C++? in Java?
+
+  \item What problems were solved by the addition
+    of genericity to Java?
+
+  \item What is the purpose of the static chain?
+
+  \item What is a singleton?
+
+  \item What are the two parts of the definition 
+    of an abstract data type?
+
+  \end{enumerate}
+\begin{answer}
+\begin{enumerate}
+\item IBM 704 system
+\item While it is possible to use only one (GOTO), the minimum number of control statements in a language which does not use GOTO is two. One for choosing between control flow paths, and one for logically controlled iterations. (348)
+\item Should the control structure have multiple entries? (349)
+\item Requiring compound statements helps increase the readability and writability for programmers when using nested selector statements, that otherwise can get very messy and complicated.
+\item In Java, the switch statement does not allow case expressions anywhere except the top level in the body of the switch.  C\#  allows the execution of more than one segment. In C\#, the control expressions as well as case statements can be strings. (357)
+\item Case expressions are the Ruby equivalent of Java's \textbf{switch} statement. One is semantically similar to nested if statements with case - when - then. The other is with boolean expressions being evaluated one at a time from top to bottom. The value of this case expression is equivalent to the value of the \textbf{then} statement corresponding to the first \textit{true} \textbf{when} statement. (357-358)
+\item The IBM 704 influenced the design of control statements which are still used today, and prompted the development of Fortran. (348, 42)
+    Most of the popular languages of the past 50 years have been designed around the von Neumann architecture. These are called imperative languages. In a von Neumann computer, both data and programs are stored in the same memory. The CPU, which executes instructions, is separate from the memory. Therefore, instructions and data must be transmitted, or piped, from memory to the CPU. Results of operations in the CPU must be moved back to memory. Nearly all digital computers built since the 1940s have been based on the von Neumann architecture.
+The Algol standard used several different syntaxes which, among other things, allowed Europeans to use a comma to denote a decimal point, while Americans could continue to use a period.
+The \textbf{register} keyword in C is a hint to the compiler that a variable will be used repeatedly, and so it should be stored in the CPU rather than in memory. However, modern compilers are far better at optimization than programmers, so this keyword is outdated and unnecessary.
+\item Edsger Dijkstra noted “The goto statement as it stands is just too primitive; it is too much an invitation to make a mess of one’s program.” Donald Knuth argued there were occasions when the efficiency of the goto outweighed its harm to readability. (376)
+\item The for loop looks like this
+\begin{lstlisting} for variable in [reverse] discrete_range loop … end loop; \end{lstlisting}
+Ada’s for loop can use any ordinal type variable for its counter. Arrays with ordinal type subscripts can be conveniently processed. (261) For loops in Java are more flexible - can have infinite loops, change loop variable inside body, etc. but is potentially more confusing to read.
+\item Guarded commands in Ada are nondeterministically chosen for execution when more than one of the statements are evaluated to true. This means that if there are three guarded statements and two of the three evaluate to true, then each time the program will use one of the two statements. It will not always use the one that appears first nor the one that appears last, but rather it will choose between them non-deterministically or randomly.
+\item  A function prototype is a function declaration that gives the function's name and type signature, but does not specify the function body. It is also referred to as a function interface at times. In other languages these are uncommon because subprograms do not need declarations since they do no need to be defined before they are called. 
+\item If a method is defined outside of the definition of any class that the programmer writes then the method belongs to the root object, \textbf{Object}.  <--This is latex code to make it bold
+\item Positional parameters are bound based on the order in which they are given to the function. Keyword parameters are when the name of the formal parameter to which an actual parameter is to be bound is specified with the actual parameter in a call. This allows them to be input in any order.
+\item A closure is an anonymous function which can be passed as a parameter. Also, Ruby doesn't nest scope, so variables defined in a method are not accessible outside of the method (say, in the class which defines them).
+A \textbf{pure function} is a \textbf{function} where the return value is only determined by its input values, without observable side effects.
+\item It does not seem to be a serious limitation, it just means that performing procedures in Java is more verbose because it requires that the programmer instantiate the class with any needed methods.
+\item Ada allows the programmer to specify \textit{in} mode, \textit{out} mode, and \textit{inout} mode for each formal parameter.  This means that they can receive data from the actual parameter, they can send data to the actual parameter, or they can do both.
+\item In C, programmers are required to pass the length of an array to a method. Specifying the length of an array (like in C) is unnecessary because Java arrays store a pointer to an address containing their length.
+\item The return address usually consists of a pointer to the instruction following the call in the code segment of the calling program unit.  The dynamic link points to the base of the activation record instance of the caller.
+\item In a recursive program there can be multiple activation records (although they will be incomplete) for a single subprogram.
+\item LIFO allows for subprograms to be nested within one another and for subprograms to be used as parameters within other subprograms. (417)
+\item RISC (reduced instruction set computing) machines have parameters passed in registers in their compilers because RISC machines have more registers than CISC (complex instruction set computing) machines. Chapter 10 assumes parameters are passed in the stack though, as they had been in CISC machines.
+\item A dynamic chain represents the dynamic history of how the execution got to its current position, which is always in the subprogram code whose activation record instance is on top of the stack.
+\item To compute the address of a local variable you need the (chain_offset, local_offset) pair.
+\item Modules are unlike classes in that they cannot be instantiated or subclassed and do not define variables. Methods that are defined in a module include the module’s name in their names.
+\item In C++, variables can be allocated to the heap either by making them “static” or by allocating memory with the keyword “new”. However, variables which are initialized during the execution of a function are allocated to the stack. Java behaves the same way. (216-217)
+\item Generics allow a type or method to operate on objects of various types while providing compile-time type safety.(From wikipedia)
+\item The static chain is a path of pointers which go from each function to its parent. They allow child subprograms to use variables which are local to their parent, grandparent, or farther up, without needing to copy those variables to the call stack.
+\item A singleton is a class which provides a global access point to a single instance. This is useful for tasks which only need one point of access, like a file system.
+\item 1. A type definition which allows program units to declare variables of the type but hides the representation of objects of the type. 2. A set of operations for manipulating objects of the type.
+
+\end{enumerate}
+\end{answer}
 
 
