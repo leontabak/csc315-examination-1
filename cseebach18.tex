@@ -209,23 +209,54 @@
   \item The design of which machine influenced the design
     of the control statements in FORTRAN?
 
+  \begin{answer}
+    The IBM 704 mainframe computer's assembly language influenced the control 
+    statements in the first version of FORTRAN.
+    \end{answer}
+
   \item How many different kinds of control statements
     must the designer of a programming language include
     in a language?
+
+  \begin{answer}
+    Technically, just one, a ``selectable goto''. However, designers usually 
+    include at least one selection statement and one iteration statement.
+    \end{answer}
 
   \item What is the one question that applies in the
     design of all statements that allow selection or
     iteration?
 
+  \begin{answer}
+    Should the control structure have multiple statements? In other words, 
+    should execution always begin with the first statement in the structure?
+    \end{answer}
+
   \item What is an advantage of requiring that
     the \textbf{then} and \textbf{else} clauses of
     an \textbf{if} statement be compound statements?
 
+  \begin{answer}
+    Readability is increased. It is easier to distinguish which statements are
+    in an if statement body when only compound statements are allowed.
+    \end{answer}
+
   \item How does the \textbf{switch} statement in C\#
     differ from the \textbf{switch} statement in Java?
 
+  \begin{answer}
+    C\# allows only one of the paths to be executed, the first matching. Java 
+    requires a \textbf{break} statement to be added to each path for this 
+    behaviour.
+    \end{answer}
+
   \item Distinguish between 2 statements in Ruby
     that correspond to Java's \textbf{switch} statement.
+
+  \begin{answer}
+    One of these forms is similar to a series of nested if statements, and 
+    evaluates to a value. The other is similar to the switch statement in Java
+    \end{answer}
 
   \item Features of a programming language sometimes persist
     longer than a feature of computing hardware that inspired
@@ -236,19 +267,57 @@
 
     Give examples.
 
+  \begin{answer}
+    The \textbf{register} keyword in C was intended as a hint to the compiler
+    that a variable should be kept on a CPU register instead of in memory. 
+    Compiler technology has improved so much that the compiler and optimizer 
+    make better decisions about what to put in registers than humans can, and
+    this keyword has thus fallen into disuse and deprecation.
+
+    In the x86 assembly language, there is limited support for Binary Coded 
+    Decimal arithmetic. Modern programming languages do not have built-in 
+    Binary Coded Decimal types, and yet the BCD opcodes in the x86 architecture have 
+    been retained for backwards compatibility.
+    \end{answer}
+
   \item Who most famously warned of the dangers of using the
     \textbf{goto} statement? What did Donald Knuth have to
     say about the use of the \textbf{goto} statement?
+
+  \begin{answer}
+    Edsger Dijkstra's famous letter \textit{Go To Statement Considered Harmful} 
+    warned against the use of \textbf{goto}. Donald Knuth said it was usually a 
+    bad idea to use \textbf{goto}, but that there were a few exceptional cases
+    where it improved the readability of a program.
+    \end{answer}
 
   \item Describes Ada's \textbf{for} loop. Are there some
     kinds of iteration that might be easier in Ada than
     in Java? Easier in Java than in Ada?
 
+  \begin{answer}
+    Ada's for loop is less flexible than the for loop in Java, but as a result 
+    is more constrained and easier to read. A reverse iteration over a discrete 
+    range is mildly easier in Ada than Java, as Ada has the built-in reverse 
+    keyword for these situations. Java has easier iteration over Iterable 
+    objects, because Ada requires that the iterable be over a discrete range and 
+    not from an object.
+    \end{answer}
+
   \item What does it mean to say that the guarded commands
     of Ada are non-deterministic?
 
+  \begin{answer}
+    Any of the guards that evaluate to true may have their expression chosen for 
+    execution, at random. This is part of Ada's concurrency support.
+    \end{answer}
+
   \item The header files in a C program contain function
     prototypes. What is a function prototype?
+
+  \begin{answer}
+    A function prototype contains the name, return type, and arguments of a function.
+    \end{answer}
 
   \item Every method in a Ruby program belongs to a class.
     A programmer can place a definition of a method inside
@@ -256,27 +325,65 @@
     of any class that the programmer writes. To which class
     does the method belong in the second case?
 
+  \begin{answer}
+    It belongs to the Object class.
+    \end{answer}
+
   \item Distinguish between positional and keyword parameters.
+
+  \begin{answer}
+    Positional parameters must be passed in a distinct order, while keyword 
+    parameters can be passed in any order and may sometimes even not be passed,
+    using a default value.
+    \end{answer}
 
   \item Ruby blocks are closures. What does that mean?
 
+  \begin{answer}
+    A Ruby block is an anonymous subprogram passed to a method. It can reference
+    its enclosing environment.
+    \end{answer}
+
   \item What is a pure function?
 
+  \begin{answer}
+    A pure function is a function without side effects, meaning it does not modify
+    the global state of the computer.
+    \end{answer}
+
   \item Some languages give programmers means to define
-    both functions and procedures. Java doe not. Is that
+    both functions and procedures. Java does not. Is that
     a serious limitation?
+
+  \begin{answer}
+    This is not a serious limitation, because one can declare a function with return
+    type void in Java, mimicking a procedure.
+    \end{answer}
 
   \item Declarations of formal parameters in an Ada procedure
     can include, in addition to the names and types of the
     parameters, reserved words that do not appear in declarations
     in Java programs. 
     What is the purpose of those reserved words?
+
+  \begin{answer}
+    Those words are \textbf{in}, \textbf{out}, and \textbf{inout}. They specify the 
+    modifiability of the parameters they describe. In parameters cannot be modified 
+    by the function. Out parameters cannot be read. Inout parameters can be both 
+    modified and read.
+    \end{answer}
  
   \item The C language imposes a constraint upon programmers
     who want to pass a multidimensional array to a function.
     What is the constraint? How did the design of the Java
     programming language eliminate that constraint for 
     programmers who use that language?
+
+  \begin{answer}
+    A programmer must pass the number of columns in a two-dimensional array as part 
+    of the type signature, so that the compiler can build a mapping function. Java 
+    arrays carry with them a length attribute, eliminating this requirement.
+    \end{answer}
 
   \item An activation record contains a return
     address, a dynamic link, parameters, and
@@ -286,38 +393,94 @@
     \item To what does the dynamic link point?
     \end{enumerate}
 
+  \begin{answer}
+    The return address points to the next instruction to be executed in the calling 
+    code.
+    The dynamic link points to the base of the activation record instance of the 
+    caller.
+    \end{answer}
+
   \item The stack will contain multiple activation
     records for a single subprogram under what
     circumstances?
 
+  \begin{answer}
+    The stack behaves like this when recursive subprograms are allowed.
+    \end{answer}
+
   \item How (or why?) does the LIFO protocol apply to
     calls to and returns from subprograms?
+
+  \begin{answer}
+    Subprogram activation records are added to the stack, and then the top is popped
+    off as subprograms finish. The last run subprogram is always at the top.
+    \end{answer}
 
   \item Which important development in computer architecture
     has changed the way that the stack is used in some
     systems for facilitating calls to and returns from
     subprograms?
 
+  \begin{answer}
+    The introduction of the call stack allowed for recursive subprograms.
+    \end{answer}
+
   \item A dynamic chain contains a history of what?
+
+  \begin{answer}
+    Which subprograms have been called and in what order to get to the current 
+    subprogram.
+    \end{answer}
 
   \item Which two numbers are needed to compute
     the address of a local variable in a subprogram?
 
+  \begin{answer}
+    You need the EP - the Environment Pointer - plus an offset.
+    \end{answer}
+
   \item How does a Ruby module differ from a class?
+
+  \begin{answer}
+    A module cannot be instantiated - it is just a collection of methods and objects.
+    \end{answer}
 
   \item Memory for variables can be allocated on the heap
     and on the stack. In which place or places is memory
     allocated for objects in C++? in Java?
 
+  \begin{answer}
+    In C++, local variables are on the stack, and variables that outlive a single
+    function live on the heap and are created by \textbf{new}.
+    In Java all objects live on the heap and are garbage collected.
+    \end{answer}
+
   \item What problems were solved by the addition
     of genericity to Java?
 
+  \begin{answer}
+    Casts had to be done back and forth into and out of a data structure prior to 
+    generics.
+    \end{answer}
+
   \item What is the purpose of the static chain?
+
+  \begin{answer}
+    The static chain allows the access of non-local variables.
+    \end{answer}
 
   \item What is a singleton?
 
+  \begin{answer}
+    A singleton is a class that is instantiated only once.
+    \end{answer}
+
   \item What are the two parts of the definition 
     of an abstract data type?
+
+  \begin{answer}
+    A type definition and a set of operations defined on that type.
+    \end{answer}
 
   \end{enumerate}
 
