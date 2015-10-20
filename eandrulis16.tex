@@ -309,27 +309,27 @@
   \item Distinguish between positional and keyword parameters.
 
   \begin{answer}
-   
+   Positional parameters are bound based on the order in which they are given to the function. Keyword parameters are when the name of the formal parameter to twhich an actual parameter is to be bound is specified with the actual parameter in a call. This allows them to be input in any order
   \end{answer}
 
   \item Ruby blocks are closures. What does that mean?
 
   \begin{answer}
-   
+   A closure is a nested subprogram and its referencing environment, which together allow the subprogram to be called from anywhere in the program. This means that Ruby blocks can be called from anywhere in the program.
   \end{answer}
 
   \item What is a pure function?
 
   \begin{answer}
-   
+   A pure function is one that is well based on the mathematical model in that it produces no side effects and it modifies neither the parameters not any variables defined outside the function.
   \end{answer}
 
   \item Some languages give programmers means to define
-    both functions and procedures. Java doe not. Is that
+    both functions and procedures. Java does not. Is that
     a serious limitation?
 
   \begin{answer}
-   
+   Java does not allow procedures, but like most programming languages that do not, it also allows functions to return values of void, which in effect makes it behave very much like a procedure anyways. Therefore, it doesn't really limit the language to exclude procedures.
   \end{answer}
 
   \item Declarations of formal parameters in an Ada procedure
@@ -337,12 +337,21 @@
     parameters, reserved words that do not appear in declarations
     in Java programs. 
     What is the purpose of those reserved words?
+
+  \begin{answer}
+    Ada allows the programmer to specify in mode, out mode, or inout mode on each parameter. These specify whether or not the parameter can receive data from the corresponding actual parameter (in), transmit data to the actual parameter (out), or do both (inout).
+  \end{answer}
  
   \item The C language imposes a constraint upon programmers
     who want to pass a multidimensional array to a function.
     What is the constraint? How did the design of the Java
     programming language eliminate that constraint for 
     programmers who use that language?
+
+  \begin{answer}
+    In C, the compiler must be able to build the mapping function for the array while seeing only the text of the subprogram. This means that the mapping function at least needs the number of columns, but not neccessarily the number of rows. This means though that it cannot input matrices with different numbers of columns.
+    In Java, arrays are objects that inherit the length constant. This allows the formal parameter for an array to be passed with two sets of empty brackets. Since the arrays have their own unique length values, the matrix can have rows of different lengths.
+  \end{answer}
 
   \item An activation record contains a return
     address, a dynamic link, parameters, and
@@ -352,38 +361,78 @@
     \item To what does the dynamic link point?
     \end{enumerate}
 
+  \begin{answer}
+    The return address points to the instruction following the call in the code segment of the calling program unit. The dynamic link points to the base of the activiation record instance of the caller.
+  \end{answer}
+
   \item The stack will contain multiple activation
     records for a single subprogram under what
     circumstances?
 
+  \begin{answer}
+    With recursion there is the possibility of multiple simultaneous activations of a subprogram, so there is more than one instance of that subprogram at one time.
+  \end{answer}
+
   \item How (or why?) does the LIFO protocol apply to
     calls to and returns from subprograms?
+
+  \begin{answer}
+    Last in first out protocol applies to calls to and returns from subprograms because calls to subprograms get put on the stack and returns from subprograms use the last call in the stack as the first thing returned. 
+  \end{answer}
 
   \item Which important development in computer architecture
     has changed the way that the stack is used in some
     systems for facilitating calls to and returns from
     subprograms?
 
+  \begin{answer}
+
+  \end{answer}
+
   \item A dynamic chain contains a history of what?
+
+  \begin{answer}
+  \end{answer}
 
   \item Which two numbers are needed to compute
     the address of a local variable in a subprogram?
 
+  \begin{answer}
+  \end{answer}
+
   \item How does a Ruby module differ from a class?
+
+  \begin{answer}
+  \end{answer}
 
   \item Memory for variables can be allocated on the heap
     and on the stack. In which place or places is memory
     allocated for objects in C++? in Java?
 
+  \begin{answer}
+  \end{answer}
+
   \item What problems were solved by the addition
     of genericity to Java?
 
+  \begin{answer}
+  \end{answer}
+
   \item What is the purpose of the static chain?
+
+  \begin{answer}
+  \end{answer}
 
   \item What is a singleton?
 
+  \begin{answer}
+  \end{answer}
+
   \item What are the two parts of the definition 
     of an abstract data type?
+
+  \begin{answer}
+  \end{answer}
 
   \end{enumerate}
 
