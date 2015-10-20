@@ -251,25 +251,62 @@
 
   \item Distinguish between positional and keyword parameters.
 
+  \begin{answer}
+
+  Posistional parameters are refered to by the position that they are called in.  Keyword parameters are refered to by the keyword associated with them.  
+
+  \end{answer}
+
   \item Ruby blocks are closures. What does that mean?
+
+  \begin{answer}
+
+    This means that a Ruby block contains a nested subprogram and its refrencing envrionment, which allows the subprogram to be called from anywhere in the program.  
+
+    \end{answer}
 
   \item What is a pure function?
 
+  \begin{answer}
+
+    A function that produces no side effects; that is, it modifies neither its parameters nor any variable defined outside the function.
+
+  \end{answer}
+
   \item Some languages give programmers means to define
-    both functions and procedures. Java doe not. Is that
+    both functions and procedures. Java does not. Is that
     a serious limitation?
+
+  \begin{answer}
+
+    Java does not allow the definition of procedures.  It is not a limitation because functions can return void, which is essentialy the same as returning nothing.
+
+  \end{answer}
 
   \item Declarations of formal parameters in an Ada procedure
     can include, in addition to the names and types of the
     parameters, reserved words that do not appear in declarations
     in Java programs. 
     What is the purpose of those reserved words?
+
+  \begin{answer}
+
+    Ada allows the programmer to specify in mode, out mode, and inout mode for each formal parameter.  This means that they can receive data from the actual parameter, they can send data to the actual parameter, or they can do both.
+
+  \end{answer}
  
   \item The C language imposes a constraint upon programmers
     who want to pass a multidimensional array to a function.
     What is the constraint? How did the design of the Java
     programming language eliminate that constraint for 
     programmers who use that language?
+
+  \begin{answer}
+
+    In C and C++ you need to specify the number of columns in the multidimensional array.  In Java and C\# arrays are objects.  They are all single dimensioned, but the elements can be arrays. Each array inherits a named constant (length in Java and Length in C\#) that is set to the length of
+the array when the array object is created. 
+
+  \end{answer}
 
   \item An activation record contains a return
     address, a dynamic link, parameters, and
@@ -279,39 +316,112 @@
     \item To what does the dynamic link point?
     \end{enumerate}
 
+  \begin{answer}
+
+    The return address usually consists of a pointer to the instruction following the call in the code segment of the calling program unit. 
+
+    The dynamic link points to the base of the activation record instance of the caller.
+
+  \end{answer}
+
   \item The stack will contain multiple activation
     records for a single subprogram under what
     circumstances?
 
+  \begin{answer}
+
+    In a recursive program there can be multiple activation records (although they will be incomplete) for a single subprogram.
+
+  \end{answer}
+
   \item How (or why?) does the LIFO protocol apply to
     calls to and returns from subprograms?
+
+  \begin{answer}
+
+    Last in first out applies because the last thing on the activation record is the first thing that's returned (Stack).
+
+  \end{answer}
 
   \item Which important development in computer architecture
     has changed the way that the stack is used in some
     systems for facilitating calls to and returns from
     subprograms?
 
+  \begin{answer}
+
+    RISC vs CISC
+
+  \end{answer}
+
   \item A dynamic chain contains a history of what?
+
+  \begin{answer}
+
+
+
+  \end{answer}
 
   \item Which two numbers are needed to compute
     the address of a local variable in a subprogram?
 
+  \begin{answer}
+
+
+
+    \end{answer}
+
   \item How does a Ruby module differ from a class?
+
+  \begin{answer}
+
+
+
+    \end{answer}
 
   \item Memory for variables can be allocated on the heap
     and on the stack. In which place or places is memory
     allocated for objects in C++? in Java?
 
+  \begin{answer}
+
+
+
+    \end{answer}
+
   \item What problems were solved by the addition
     of genericity to Java?
 
+  \begin{answer}
+
+
+
+    \end{answer}
+
   \item What is the purpose of the static chain?
 
+  \begin{answer}
+
+
+
+    \end{answer}
+
   \item What is a singleton?
+
+  \begin{answer}
+
+
+
+    \end{answer}
 
   \item What are the two parts of the definition 
     of an abstract data type?
 
+  \begin{answer}
+
+
+
+    \end{answer}
   \end{enumerate}
 
 
