@@ -14,8 +14,10 @@
   \begin{answer}
 
   \begin{enumerate}
-    \item Write your answer here.
-    \item Write your answer here.
+    \item Ada uses parentheses to enclose the index.
+    \item The programmers used parentheses instead of brackets to provide
+          uniformity between arrays and functions, since they both use
+          mapping.
     \end{enumerate}
 
     \end{answer}
@@ -24,7 +26,7 @@
 
   \begin{answer}
 
-    Write your answer here.
+    A token is a category of one or more lexemes within a language.
 
     \end{answer}
 
@@ -38,8 +40,8 @@
   \begin{answer}
 
   \begin{enumerate}
-    \item Write your answer here.
-    \item Write your answer here.
+    \item Non-terminal symbols.
+    \item Terminal symbols.
     \end{enumerate}
 
     \end{answer}
@@ -51,7 +53,7 @@
 
   \begin{answer}
 
-    Write your answer here.
+    Backus-Naur Form syntax description
 
     \end{answer}
 
@@ -59,7 +61,8 @@
 
   \begin{answer}
 
-    Write your answer here.
+    The problem was a lack of portability between programs written in
+    different dialects of LISP.
 
     \end{answer}
 
@@ -67,7 +70,8 @@
 
   \begin{answer}
 
-    Write your answer here.
+    An ambiguous context free grammar can generate sentences with more than
+    one leftmost and rightmost derivation.
 
     \end{answer}
 
@@ -78,7 +82,9 @@
 
   \begin{answer}
 
-    Write your answer here.
+    Algorithms for parsing any unambiguous grammars are highly inefficient,
+    with a complexity of O(n**3), whereas algorithms for programming languages
+    are complexity O(n).
 
     \end{answer}
 
@@ -88,7 +94,9 @@
 
   \begin{answer}
 
-    Write your answer here.
+    Unicode allows programs to be written which can communicate with other
+    countries whose languages cannot be represented by the basic english
+    alphabet.
 
     \end{answer}
 
@@ -97,7 +105,10 @@
 
   \begin{answer}
 
-    Write your answer here.
+    Floating point numbers are an approximation of the number using fractions
+    and exponents, stored in binary which can make them even less accurate.
+    Binary coded decimals precisely store decimal values at the cost of taking
+    up more storage than floating point numbers.
 
     \end{answer}
 
@@ -106,7 +117,7 @@
 
   \begin{answer}
 
-    Write your answer here.
+    Enumeration
 
     \end{answer}
 
@@ -115,7 +126,9 @@
 
   \begin{answer}
 
-    Write your answer here.
+    When Boolean operators evaluate to 0 and 1, they can be used in equations
+    with multiple relational operators to produce unexpected results.
+    (1 < 2 <= 1) -> ((true/1) <= 1) -> true
 
     \end{answer}
 
@@ -124,7 +137,9 @@
 
   \begin{answer}
 
-    Write your answer here.
+    With +==+, strings can be coerced into numbers to check for equality.
+    With +===+, no coercion will take place, so strings and numbers will not
+    resolve as equal.
 
     \end{answer}
 
@@ -133,7 +148,8 @@
 
   \begin{answer}
 
-    Write your answer here.
+    If there is a side effect in the right hand side of the expression and
+    it short-circuits on the left, then the side effect will not occur.
 
     \end{answer}
 
@@ -142,7 +158,10 @@
 
   \begin{answer}
 
-    Write your answer here.
+    1- all cells in heap set indicators to 'garbage'
+    2- all pointers in the program are traced, and anything which is pointed
+       to is changed to 'not garbage'
+    3- all cells still marked 'garbage' are reverted to available space
 
     \end{answer}
 
@@ -150,7 +169,9 @@
 
   \begin{answer}
 
-    Write your answer here.
+    Matsumoto was dissatisfied with Perl and Python; specifically, that they
+    were not pure object-oriented languages because they had primitive types
+    and functions.
 
     \end{answer}
 
@@ -159,9 +180,130 @@
 
   \begin{answer}
 
-    Write your answer here.
+    Microsoft aimed to provide a language for development of component-based
+    software in the .NET framework.
 
     \end{answer}
+
+  \end{enumerate}
+
+
+
+\section{More questions for discussion and review.}
+
+\begin{enumerate}
+  \item The design of which machine influenced the design
+    of the control statements in FORTRAN?
+
+  \item How many different kinds of control statements
+    must the designer of a programming language include
+    in a language?
+
+  \item What is the one question that applies in the
+    design of all statements that allow selection or
+    iteration?
+
+  \item What is an advantage of requiring that
+    the \textbf{then} and \textbf{else} clauses of
+    an \textbf{if} statement be compound statements?
+
+  \item How does the \textbf{switch} statement in C\#
+    differ from the \textbf{switch} statement in Java?
+
+  \item Distinguish between 2 statements in Ruby
+    that correspond to Java's \textbf{switch} statement.
+
+  \item Features of a programming language sometimes persist
+    longer than a feature of computing hardware that inspired
+    and supported that part of the language's design.
+    Similarly, features of hardware sometimes persist longer
+    than some parts of a language's design that were created
+    to take advantage of that feature in hardware.
+
+    Give examples.
+
+  \item Who most famously warned of the dangers of using the
+    \textbf{goto} statement? What did Donald Knuth have to
+    say about the use of the \textbf{goto} statement?
+
+  \item Describes Ada's \textbf{for} loop. Are there some
+    kinds of iteration that might be easier in Ada than
+    in Java? Easier in Java than in Ada?
+
+  \item What does it mean to say that the guarded commands
+    of Ada are non-deterministic?
+
+  \item The header files in a C program contain function
+    prototypes. What is a function prototype?
+
+  \item Every method in a Ruby program belongs to a class.
+    A programmer can place a definition of a method inside
+    the definition of a class or outside of the definition
+    of any class that the programmer writes. To which class
+    does the method belong in the second case?
+
+  \item Distinguish between positional and keyword parameters.
+
+  \item Ruby blocks are closures. What does that mean?
+
+  \item What is a pure function?
+
+  \item Some languages give programmers means to define
+    both functions and procedures. Java doe not. Is that
+    a serious limitation?
+
+  \item Declarations of formal parameters in an Ada procedure
+    can include, in addition to the names and types of the
+    parameters, reserved words that do not appear in declarations
+    in Java programs. 
+    What is the purpose of those reserved words?
+ 
+  \item The C language imposes a constraint upon programmers
+    who want to pass a multidimensional array to a function.
+    What is the constraint? How did the design of the Java
+    programming language eliminate that constraint for 
+    programmers who use that language?
+
+  \item An activation record contains a return
+    address, a dynamic link, parameters, and
+    local variables.
+  \begin{enumerate}
+    \item To what does the return address point?
+    \item To what does the dynamic link point?
+    \end{enumerate}
+
+  \item The stack will contain multiple activation
+    records for a single subprogram under what
+    circumstances?
+
+  \item How (or why?) does the LIFO protocol apply to
+    calls to and returns from subprograms?
+
+  \item Which important development in computer architecture
+    has changed the way that the stack is used in some
+    systems for facilitating calls to and returns from
+    subprograms?
+
+  \item A dynamic chain contains a history of what?
+
+  \item Which two numbers are needed to compute
+    the address of a local variable in a subprogram?
+
+  \item How does a Ruby module differ from a class?
+
+  \item Memory for variables can be allocated on the heap
+    and on the stack. In which place or places is memory
+    allocated for objects in C++? in Java?
+
+  \item What problems were solved by the addition
+    of genericity to Java?
+
+  \item What is the purpose of the static chain?
+
+  \item What is a singleton?
+
+  \item What are the two parts of the definition 
+    of an abstract data type?
 
   \end{enumerate}
 

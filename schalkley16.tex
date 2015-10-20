@@ -14,8 +14,11 @@
   \begin{answer}
 
   \begin{enumerate}
-    \item Write your answer here.
-    \item Write your answer here.
+    \item the language that requires the use of parentheses to enclose
+      an index is ada.
+    \item the designers chose parentheses to enclose subscripts so
+      there would be uniformity between array references and function
+      calls in expressions.
     \end{enumerate}
 
     \end{answer}
@@ -24,7 +27,10 @@
 
   \begin{answer}
 
-    Write your answer here.
+    the lexemes of a programming language include numeric literals
+    operators and special words. these are partitioned into
+    groups. the token is the name that represents each lexeme
+    group. (a token of a language is a category of its lexemes.)
 
     \end{answer}
 
@@ -38,8 +44,8 @@
   \begin{answer}
 
   \begin{enumerate}
-    \item Write your answer here.
-    \item Write your answer here.
+    \item nonterminal symbols are at every internal node
+    \item leaves of the parse tree is labeled with a terminal symbol
     \end{enumerate}
 
     \end{answer}
@@ -51,25 +57,26 @@
 
   \begin{answer}
 
-    Write your answer here.
-
+   This is what is called static scopping it is a method of binding
+   names to nonlocal variables. the scope of the variable can be
+   statically determined prior to execution.
     \end{answer}
 
   \item What problem were the creators of Common LISP trying to solve?
 
   \begin{answer}
 
-    Write your answer here.
+  it was created to solve lack of portability among programs written
+  in the various dialects
 
     \end{answer}
 
   \item What is an ambiguous context free grammar?
 
   \begin{answer}
-
-    Write your answer here.
-
-    \end{answer}
+    a grammarthat generates a sentential form where there are two or
+    more distinct parse trees.
+        \end{answer}
 
   \item Contrast the complexity of algorithms that can parse strings
     that conform to the most general kinds of context free grammars
@@ -78,7 +85,13 @@
 
   \begin{answer}
 
-    Write your answer here.
+    the conplexity for parsing strings that conform to general kinds
+    of context free grammers is $O(n^3)$ which is alot and takes
+    awhile. while parsing strings that conform to grammars have a
+    complexity of $O(n)$ which is much faster. this indicates that it is
+    linear. and much more efficient
+
+   ************************* Write your answer here.
 
     \end{answer}
 
@@ -88,7 +101,10 @@
 
   \begin{answer}
 
-    Write your answer here.
+  Unicode is standard for character incoding. this allowed computers
+  to communicate with comuters around the world. this helped with
+  globalization of business because of the demand of computers talking
+  to comuters around the world.
 
     \end{answer}
 
@@ -97,7 +113,11 @@
 
   \begin{answer}
 
-    Write your answer here.
+  uses binary codefor the decimal digits ( much like strings.) this
+  allows precision storing of decimal values. supports business
+  proccessing etc.  on the other hand floating points are only
+  approximations for many real values. has some problems like loss of
+  accuracy throug arithmetic operations
 
     \end{answer}
 
@@ -106,7 +126,7 @@
 
   \begin{answer}
 
-    Write your answer here.
+   this is an enumeration. 
 
     \end{answer}
 
@@ -115,7 +135,9 @@
 
   \begin{answer}
 
-    Write your answer here.
+   in math booleans or/ and must have equal precedence.  however with
+   computer science, specifically in c we establish a higher
+   precedence in and than or.
 
     \end{answer}
 
@@ -124,7 +146,8 @@
 
   \begin{answer}
 
-    Write your answer here.
+    because this === prevents operands from being coerced.in this case
+    === with a string and number would turn out false.
 
     \end{answer}
 
@@ -133,7 +156,11 @@
 
   \begin{answer}
 
-    Write your answer here.
+   short circut evaluation can be hazardus when used on and expression
+   and part of an expression that contains a side effect is not
+   evaluated.  for example $(a > b) || ((b++ / 3)$ if the programmer
+   assumed b would change every time and a was not greater than b the
+   program would fail.
 
     \end{answer}
 
@@ -142,7 +169,11 @@
 
   \begin{answer}
 
-    Write your answer here.
+  1) all cells in the heap have their indicators set to indicate they
+  are garbage 2) marking phase, every pointer is traced into the heap
+  and all reachable cells are marked as not being garbage 3)sweep
+  phase, all cells in the heap that have not been specifically marked
+  as still being used are returned to the list of available space.
 
     \end{answer}
 
@@ -150,7 +181,10 @@
 
   \begin{answer}
 
-    Write your answer here.
+   the motivation for ruby was dissatisfaction of its designer with
+   perl and python.  niether was a pure object-oriented language in
+   the sense that each hase primitive types and each supports
+   functions.
 
     \end{answer}
 
@@ -159,9 +193,133 @@
 
   \begin{answer}
 
-    Write your answer here.
+   the C\# designers obviously disagreed with this wholesale removal of
+   featurs that java did not include. it included all but the multiple
+   inheritance. they wanted to have a language for component based
+   software development (looking alot at .NET)
+
 
     \end{answer}
+
+  \end{enumerate}
+
+
+
+\section{More questions for discussion and review.}
+
+\begin{enumerate}
+  \item The design of which machine influenced the design
+    of the control statements in FORTRAN?
+
+  \item How many different kinds of control statements
+    must the designer of a programming language include
+    in a language?
+
+  \item What is the one question that applies in the
+    design of all statements that allow selection or
+    iteration?
+
+  \item What is an advantage of requiring that
+    the \textbf{then} and \textbf{else} clauses of
+    an \textbf{if} statement be compound statements?
+
+  \item How does the \textbf{switch} statement in C\#
+    differ from the \textbf{switch} statement in Java?
+
+  \item Distinguish between 2 statements in Ruby
+    that correspond to Java's \textbf{switch} statement.
+
+  \item Features of a programming language sometimes persist
+    longer than a feature of computing hardware that inspired
+    and supported that part of the language's design.
+    Similarly, features of hardware sometimes persist longer
+    than some parts of a language's design that were created
+    to take advantage of that feature in hardware.
+
+    Give examples.
+
+  \item Who most famously warned of the dangers of using the
+    \textbf{goto} statement? What did Donald Knuth have to
+    say about the use of the \textbf{goto} statement?
+
+  \item Describes Ada's \textbf{for} loop. Are there some
+    kinds of iteration that might be easier in Ada than
+    in Java? Easier in Java than in Ada?
+
+  \item What does it mean to say that the guarded commands
+    of Ada are non-deterministic?
+
+  \item The header files in a C program contain function
+    prototypes. What is a function prototype?
+
+  \item Every method in a Ruby program belongs to a class.
+    A programmer can place a definition of a method inside
+    the definition of a class or outside of the definition
+    of any class that the programmer writes. To which class
+    does the method belong in the second case?
+
+  \item Distinguish between positional and keyword parameters.
+
+  \item Ruby blocks are closures. What does that mean?
+
+  \item What is a pure function?
+
+  \item Some languages give programmers means to define
+    both functions and procedures. Java doe not. Is that
+    a serious limitation?
+
+  \item Declarations of formal parameters in an Ada procedure
+    can include, in addition to the names and types of the
+    parameters, reserved words that do not appear in declarations
+    in Java programs. 
+    What is the purpose of those reserved words?
+ 
+  \item The C language imposes a constraint upon programmers
+    who want to pass a multidimensional array to a function.
+    What is the constraint? How did the design of the Java
+    programming language eliminate that constraint for 
+    programmers who use that language?
+
+  \item An activation record contains a return
+    address, a dynamic link, parameters, and
+    local variables.
+  \begin{enumerate}
+    \item To what does the return address point?
+    \item To what does the dynamic link point?
+    \end{enumerate}
+
+  \item The stack will contain multiple activation
+    records for a single subprogram under what
+    circumstances?
+
+  \item How (or why?) does the LIFO protocol apply to
+    calls to and returns from subprograms?
+
+  \item Which important development in computer architecture
+    has changed the way that the stack is used in some
+    systems for facilitating calls to and returns from
+    subprograms?
+
+  \item A dynamic chain contains a history of what?
+
+  \item Which two numbers are needed to compute
+    the address of a local variable in a subprogram?
+
+  \item How does a Ruby module differ from a class?
+
+  \item Memory for variables can be allocated on the heap
+    and on the stack. In which place or places is memory
+    allocated for objects in C++? in Java?
+
+  \item What problems were solved by the addition
+    of genericity to Java?
+
+  \item What is the purpose of the static chain?
+
+  \item What is a singleton?
+
+  \item What are the two parts of the definition 
+    of an abstract data type?
 
   \end{enumerate}
 
