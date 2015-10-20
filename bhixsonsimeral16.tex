@@ -250,7 +250,7 @@
 
     \begin{answer}
 
-    Case statements, in Ruby, behave like nested if statements, while cond statements go through a list of statements that work as else if.
+    Case expressions are the Ruby equivalent of Java's \textbf{switch} statement. One is semantically similar to nested if statements with case - when - then. The other is with boolean expressions being evaluated one at a time from top to bottom. The value of this case expression is equivalent to the value of the \textbf{then} statement corresponding to the first \textit{true} \textbf{when} statement.
     
     \end{answer}
 
@@ -264,7 +264,11 @@
     Give examples.
 
     \begin{answer}
-    The IBM 704 influenced the design of control statements.
+    The IBM 704 influenced the design of control statements which are still used today, and prompted the development of Fortran. (348, 42)
+    Most of the popular languages of the past 50 years have been designed around the von Neumann architecture. These are called imperative languages. In a von Neumann computer, both data and programs are stored in the same memory. The CPU, which executes instructions, is separate from the memory. Therefore, instructions and data must be transmitted, or piped, from memory to the CPU. Results of operations in the CPU must be moved back to memory. Nearly all digital computers built since the 1940s have been based on the von Neumann architecture.
+    The Algol standard used several different syntaxes which, among other things, allowed Europeans to use a comma to denote a decimal point, while Americans could continue to use a period.
+    The \textbf{register} keyword in C is a hint to the compiler that a variable will be used repeatedly, and so it should be stored in the CPU rather than in memory. However, modern compilers are far better at optimization than programmers, so this keyword is outdated and unnecessary.
+
     \end{answer}
 
   \item Who most famously warned of the dangers of using the
