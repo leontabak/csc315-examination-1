@@ -176,24 +176,58 @@
 \begin{enumerate}
   \item The design of which machine influenced the design
     of the control statements in FORTRAN?
+    
+    \begin{answer}
+    
+    IBM 704 influenced the design of the control statements in FORTRAN.
+    
+    \end{answer}
 
   \item How many different kinds of control statements
     must the designer of a programming language include
     in a language?
+    
+    \begin{answer}
+    
+     One of the primary conclusions of these efforts was that, although a single control statement (a selectable goto) is minimally sufficient, a language that is designed not to include a goto needs only a small number of different control statements.
+     
+    \end{answer}
 
   \item What is the one question that applies in the
     design of all statements that allow selection or
     iteration?
+    
+    \begin{answer}
+     Should multiple entries be permitted?
+    \end{answer}
 
   \item What is an advantage of requiring that
     the \textbf{then} and \textbf{else} clauses of
     an \textbf{if} statement be compound statements?
+    
+    \begin{answer}
+    
+    Requiring compound statements helps increase the readability and writability for programmers when using nested selector statements, that otherwise can get very messy and complicated.
+    
+    \end{answer}
 
   \item How does the \textbf{switch} statement in C\#
     differ from the \textbf{switch} statement in Java?
+    
+    \begin{answer}
+    The C\# switch statement differs from that of its C-based predecessors
+	in two ways. First, C\# has a static semantics rule that disallows the 			implicit execution of more than one segment. The rule is that every 			selectable segment must end with an explicit unconditional branch statement: 	 either a break, which transfers control out of the switch statement, or a 		goto, which can transfer control to one of the selectable segments (or 			virtually anywhere else). The other way C\#’s switch differs from that of 		its predecessors is that the control expression and the case statements can 	be strings in C\#.
+
+    \end{answer}
 
   \item Distinguish between 2 statements in Ruby
     that correspond to Java's \textbf{switch} statement.
+    
+    \begin{answer}
+    
+    Ruby's case expression is similar to the switch statement. And \textbf{when} in Ruby's case expression is used to evaluate as \textbf{if} does in Java's switch statement and \textbf{then} statement is executed.
+    
+    \end{answer}
 
   \item Features of a programming language sometimes persist
     longer than a feature of computing hardware that inspired
@@ -203,48 +237,116 @@
     to take advantage of that feature in hardware.
 
     Give examples.
+    
+    \begin{answer}
+    
+    The IBM 704 influenced the design of control statements
+    
+    \end{answer}
 
   \item Who most famously warned of the dangers of using the
     \textbf{goto} statement? What did Donald Knuth have to
     say about the use of the \textbf{goto} statement?
+    
+    \begin{answer}
+    
+    Donald Knuth argues that well thought out, rational, controlled use of goto is not entirely harmful but uncontrolled and thoughtless use of GoTo is probably a bad thing.
+    
+    \end{answer}
 
   \item Describes Ada's \textbf{for} loop. Are there some
     kinds of iteration that might be easier in Ada than
     in Java? Easier in Java than in Ada?
-
+    
+    \begin{answer}
+    
+    Ada’s for loop can use any ordinal type variable for its counter. Arrays with ordinal type subscripts can be conveniently processed
+    
+    \end{answer}
+    
   \item What does it mean to say that the guarded commands
     of Ada are non-deterministic?
+    
+    \begin{answer}
+    
+    A guarded command is a statement, or list of statements, that is "guarded" by a boolean expression.The semantics is that all the expressions are evaluated simultaneously, if one of the expressions is true, then the statement associated with it is performed. If more that one is true, then one statement is picked nondeterministically. Finally, if all of the expressions evaluate to false, the program exits the loop.
+    
+    \end{answer}
 
   \item The header files in a C program contain function
     prototypes. What is a function prototype?
+    
+    \begin{answer}
+    
+     A function prototype or function interface is a declaration of a function that specifies the function's name and type signature (arity, parameter types, and return type), but omits the function body.
+
+    \end{answer}
 
   \item Every method in a Ruby program belongs to a class.
     A programmer can place a definition of a method inside
     the definition of a class or outside of the definition
     of any class that the programmer writes. To which class
     does the method belong in the second case?
+    
+    \begin{answer}
+     If a method is defined outside of the definition of any class that the programmer writes then the method belongs to the root object, \textbf{Object}
+    \end{answer}
 
   \item Distinguish between positional and keyword parameters.
+  
+  \begin{answer}
+  Positional parameters are bound based on the order in which they are given to the function. Keyword parameters are when the name of the formal parameter to which an actual parameter is to be bound is specified with the actual parameter in a call. This allows them to be input in any order
+  \end{answer}
 
   \item Ruby blocks are closures. What does that mean?
+  
+  \begin{answer}
+  
+  A closure is an anonymous function which can be passed as a parameter. Also, Ruby doesn't nest scope, so variables defined in a class are not accessible in that class's methods.
+  
+  \end{answer}
 
   \item What is a pure function?
+  
+  \begin{answer}
+  
+  A pure function is a function where the return value is only determined by its input values, without observable side effects. This is how functions in math work: Math.cos(x) will, for the same value of x , always return the same result.
+  
+  \end{answer}
 
   \item Some languages give programmers means to define
     both functions and procedures. Java doe not. Is that
     a serious limitation?
+    
+    \begin{answer}
+    
+    It does not seem to be a serious limitation, it just means that performing procedures in Java is more verbose because it requires that the programmer instantiate the class with any needed methods.
+    
+    \end{answer}
 
   \item Declarations of formal parameters in an Ada procedure
     can include, in addition to the names and types of the
     parameters, reserved words that do not appear in declarations
     in Java programs. 
     What is the purpose of those reserved words?
+    
+    \begin{answer}
+    
+    Ada and Fortran 95+ allow the programmer to specify in mode, out mode, or inout mode on each formal parameter.A reserved word is a special word of a programming language that cannot be used as a name. As a language design choice, reserved words are better than keywords because the ability to redefine keywords can be confusing.
+
+    \end{answer}
  
   \item The C language imposes a constraint upon programmers
     who want to pass a multidimensional array to a function.
     What is the constraint? How did the design of the Java
     programming language eliminate that constraint for 
     programmers who use that language?
+    
+    \begin{answer}
+    
+    In C, programmers are required to pass the length of an array to a method. Specifying the length of an array (like in C) is unnecessary because Java arrays store a pointer to an address containing their length.
+
+    \end{answer}
 
   \item An activation record contains a return
     address, a dynamic link, parameters, and
@@ -253,40 +355,103 @@
     \item To what does the return address point?
     \item To what does the dynamic link point?
     \end{enumerate}
+    
+    \begin{answer}
+    
+The return address usually consists of a pointer to the instruction following the call in the code segment of the calling program unit.  The dynamic link points to the base of the activation record instance of the caller.
+
+    \end{answer}
 
   \item The stack will contain multiple activation
     records for a single subprogram under what
     circumstances?
+    
+    \begin{answer}
+    In a recursive program there can be multiple activation records (although they will be incomplete) for a single subprogram.
+    \end{answer}
 
   \item How (or why?) does the LIFO protocol apply to
     calls to and returns from subprograms?
+    
+    \begin{answer}
+    LIFO allows for subprograms to be nested within one another and for subprograms to be used as parameters within other subprograms.
+    \end{answer}
 
   \item Which important development in computer architecture
     has changed the way that the stack is used in some
     systems for facilitating calls to and returns from
     subprograms?
+    
+    \begin{answer}
+    RISC (reduced instruction set computing) machines have parameters passed in registers in their compilers because RISC machines have more registers than CISC (complex instruction set computing) machines. Chapter 10 assumes parameters are passed in the stack though, as they had been in CISC machines.
+
+    \end{answer}
 
   \item A dynamic chain contains a history of what?
+  
+  \begin{answer}
+  Dynamic chain represents the dynamic history of how execution got to its current position, which is always in the subprogram code whose activation record instance is on top of the stack.
+  \end{answer}
 
   \item Which two numbers are needed to compute
     the address of a local variable in a subprogram?
+    
+    \begin{answer}
+    
+    To compute the address of a local variable you need the (chain\textunderscore offset, local\textunderscore offset) pair.
+
+    \end{answer}
 
   \item How does a Ruby module differ from a class?
+  
+  \begin{answer}
+  
+  Modules are unlike classes in that they cannot be instantiated or subclassed and do not define variables. Methods that are defined in a module include the  module’s name in their names
+  
+  \end{answer}
 
   \item Memory for variables can be allocated on the heap
     and on the stack. In which place or places is memory
     allocated for objects in C++? in Java?
+    
+    \begin{answer}
+    In C++, variables can be explicitly fixed in the heap by using the keyword “static”. They can also be also be dynamically allocated to the heap with the new keyword.
+    \end{answer}
 
   \item What problems were solved by the addition
     of genericity to Java?
+    
+    \begin{answer}
+    
+    Generics allow a type or method to operate on objects of various types while providing compile-time type safety.
+    
+    \end{answer}
 
   \item What is the purpose of the static chain?
+  
+  \begin{answer}
+  
+  Static chain points to the bottom of the activation record instance of an activation of the static parent. It is used for accesses to nonlocal variables. 
+  
+  \end{answer}
 
   \item What is a singleton?
+  
+  \begin{answer}
+  
+  A singleton is a class which provides a global access point to a single instance. This is useful for tasks which only need one point of access, like a file system.
+
+  \end{answer}
 
   \item What are the two parts of the definition 
     of an abstract data type?
-
-  \end{enumerate}
+    
+    \begin{answer}
+    \begin{enumerate}
+\item{A type definition which allows program units to declare variables of the type but hides the representation of objects of the type}
+\item{A set of operations for manipulating objects of the type.}
+	\end{enumerate}
+    \end{answer}
+\end{enumerate}
 
 
