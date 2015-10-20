@@ -260,7 +260,7 @@
     Give examples.
 
   \begin{answer}
-   
+   An example of this would be how the IBM 704 influenced the design of control statements.
   \end{answer}
 
   \item Who most famously warned of the dangers of using the
@@ -386,23 +386,26 @@
     subprograms?
 
   \begin{answer}
-
+    RISC (reduced instruction set computing) machines have parameters passed in registers in their compilers because RISC machines have more registers than CISC (complex instruction set computing) machines. Chapter 10 assumes parameters are passed in the stack though, as they had been in CISC machines.
   \end{answer}
 
   \item A dynamic chain contains a history of what?
 
   \begin{answer}
+    A dynamic chain contains the history of all subprogram activation records, but in the reverse order of when they were activated. (LIFO stack)
   \end{answer}
 
   \item Which two numbers are needed to compute
     the address of a local variable in a subprogram?
 
   \begin{answer}
+    To compute the address of a local variable one would need both the chain offset and the local offset as a pair. (Found on page 457.)
   \end{answer}
 
   \item How does a Ruby module differ from a class?
 
   \begin{answer}
+    Modules are different from classes in that they cannot be instantiated or subclassed and they do not define variables. Also, methods defined in a module will always have the module's name in their names, i.e. MyModule.myMethod() would be a method in module MyModule.
   \end{answer}
 
   \item Memory for variables can be allocated on the heap
@@ -410,28 +413,34 @@
     allocated for objects in C++? in Java?
 
   \begin{answer}
+    In C++ memory for variables is allocated on the heap by making them ``static'' or by allocating memory with the keyword ``new''. Variables that are initialized during the execution of a function though are allocated to the stack instead. Java is another C-based language and therefore works the same way.
+
   \end{answer}
 
   \item What problems were solved by the addition
     of genericity to Java?
 
   \begin{answer}
+    By adding genericity to Java this allows a type or method to operate on objects of various types while still providing compile-time type safety.
   \end{answer}
 
   \item What is the purpose of the static chain?
 
   \begin{answer}
+    A static chain is a path of pointer which go from each function to its parent. They allow child subprograms to use variables which are local to their parent or other ancestors without needing to copy those variables to the call stack.
   \end{answer}
 
   \item What is a singleton?
 
   \begin{answer}
+    A singleton is a class which provides a single global access point to a single instance. This is helpful when there are tasks that need only one point of access, i.e. a file system.
   \end{answer}
 
   \item What are the two parts of the definition 
     of an abstract data type?
 
   \begin{answer}
+    An abstract data type is both a set of operations for manipulating objects of that type, and also a definition which allows program units to declare variables of that type while hiding the representation of objects of that type.
   \end{answer}
 
   \end{enumerate}
