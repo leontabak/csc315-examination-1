@@ -295,6 +295,11 @@
       operations in the CPU must be moved back to memory. Nearly
       all digital computers built since the 1940s have been based
       on the von Neumann architecture.
+      \item The \textbf{register} keyword in C is a hint to the compiler that
+      a variable will be used repeatedly, and so it should be
+      stored in the CPU rather than in memory. However, modern
+      compilers are far better at optimization than programmers,
+      so this keyword is outdated and unnecessary.
     \end{enumerate}
 
   \end{answer}
