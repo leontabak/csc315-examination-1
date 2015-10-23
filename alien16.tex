@@ -324,40 +324,137 @@
 \begin{answer}
 \begin{enumerate}
 \item IBM 704 system
-\item While it is possible to use only one (GOTO), the minimum number of control statements in a language which does not use GOTO is two. One for choosing between control flow paths, and one for logically controlled iterations. (348)
+\item While it is possible to use only one (GOTO), the minimum number
+  of control statements in a language which does not use GOTO is
+  two. One for choosing between control flow paths, and one for
+  logically controlled iterations. (348)
 \item Should the control structure have multiple entries? (349)
-\item Requiring compound statements helps increase the readability and writability for programmers when using nested selector statements, that otherwise can get very messy and complicated.
-\item In Java, the switch statement does not allow case expressions anywhere except the top level in the body of the switch.  C\#  allows the execution of more than one segment. In C\#, the control expressions as well as case statements can be strings. (357)
-\item Case expressions are the Ruby equivalent of Java's \textbf{switch} statement. One is semantically similar to nested if statements with case - when - then. The other is with boolean expressions being evaluated one at a time from top to bottom. The value of this case expression is equivalent to the value of the \textbf{then} statement corresponding to the first \textit{true} \textbf{when} statement. (357-358)
-\item The IBM 704 influenced the design of control statements which are still used today, and prompted the development of Fortran. (348, 42)
-    Most of the popular languages of the past 50 years have been designed around the von Neumann architecture. These are called imperative languages. In a von Neumann computer, both data and programs are stored in the same memory. The CPU, which executes instructions, is separate from the memory. Therefore, instructions and data must be transmitted, or piped, from memory to the CPU. Results of operations in the CPU must be moved back to memory. Nearly all digital computers built since the 1940s have been based on the von Neumann architecture.
-The Algol standard used several different syntaxes which, among other things, allowed Europeans to use a comma to denote a decimal point, while Americans could continue to use a period.
-The \textbf{register} keyword in C is a hint to the compiler that a variable will be used repeatedly, and so it should be stored in the CPU rather than in memory. However, modern compilers are far better at optimization than programmers, so this keyword is outdated and unnecessary.
-\item Edsger Dijkstra noted “The goto statement as it stands is just too primitive; it is too much an invitation to make a mess of one’s program.” Donald Knuth argued there were occasions when the efficiency of the goto outweighed its harm to readability. (376)
+\item Requiring compound statements helps increase the readability and
+  writability for programmers when using nested selector statements,
+  that otherwise can get very messy and complicated.
+\item In Java, the switch statement does not allow case expressions
+  anywhere except the top level in the body of the switch.  C\# allows
+  the execution of more than one segment. In C\#, the control
+  expressions as well as case statements can be strings. (357)
+\item Case expressions are the Ruby equivalent of Java's
+  \textbf{switch} statement. One is semantically similar to nested if
+  statements with case - when - then. The other is with boolean
+  expressions being evaluated one at a time from top to bottom. The
+  value of this case expression is equivalent to the value of the
+  \textbf{then} statement corresponding to the first \textit{true}
+  \textbf{when} statement. (357-358)
+\item The IBM 704 influenced the design of control statements which
+  are still used today, and prompted the development of Fortran. (348,
+  42) Most of the popular languages of the past 50 years have been
+  designed around the von Neumann architecture. These are called
+  imperative languages. In a von Neumann computer, both data and
+  programs are stored in the same memory. The CPU, which executes
+  instructions, is separate from the memory. Therefore, instructions
+  and data must be transmitted, or piped, from memory to the
+  CPU. Results of operations in the CPU must be moved back to
+  memory. Nearly all digital computers built since the 1940s have been
+  based on the von Neumann architecture.  The Algol standard used
+  several different syntaxes which, among other things, allowed
+  Europeans to use a comma to denote a decimal point, while Americans
+  could continue to use a period.  The \textbf{register} keyword in C
+  is a hint to the compiler that a variable will be used repeatedly,
+  and so it should be stored in the CPU rather than in
+  memory. However, modern compilers are far better at optimization
+  than programmers, so this keyword is outdated and unnecessary.
+\item Edsger Dijkstra noted “The goto statement as it stands is just
+  too primitive; it is too much an invitation to make a mess of one’s
+  program.” Donald Knuth argued there were occasions when the
+  efficiency of the goto outweighed its harm to readability. (376)
 \item The for loop looks like this
-\begin{lstlisting} for variable in [reverse] discrete_range loop … end loop; \end{lstlisting}
-Ada’s for loop can use any ordinal type variable for its counter. Arrays with ordinal type subscripts can be conveniently processed. (261) For loops in Java are more flexible - can have infinite loops, change loop variable inside body, etc. but is potentially more confusing to read.
-\item Guarded commands in Ada are nondeterministically chosen for execution when more than one of the statements are evaluated to true. This means that if there are three guarded statements and two of the three evaluate to true, then each time the program will use one of the two statements. It will not always use the one that appears first nor the one that appears last, but rather it will choose between them non-deterministically or randomly.
-\item  A function prototype is a function declaration that gives the function's name and type signature, but does not specify the function body. It is also referred to as a function interface at times. In other languages these are uncommon because subprograms do not need declarations since they do no need to be defined before they are called. 
-\item If a method is defined outside of the definition of any class that the programmer writes then the method belongs to the root object, \textbf{Object}.  <--This is latex code to make it bold
-\item Positional parameters are bound based on the order in which they are given to the function. Keyword parameters are when the name of the formal parameter to which an actual parameter is to be bound is specified with the actual parameter in a call. This allows them to be input in any order.
-\item A closure is an anonymous function which can be passed as a parameter. Also, Ruby doesn't nest scope, so variables defined in a method are not accessible outside of the method (say, in the class which defines them).
-A \textbf{pure function} is a \textbf{function} where the return value is only determined by its input values, without observable side effects.
-\item It does not seem to be a serious limitation, it just means that performing procedures in Java is more verbose because it requires that the programmer instantiate the class with any needed methods.
-\item Ada allows the programmer to specify \textit{in} mode, \textit{out} mode, and \textit{inout} mode for each formal parameter.  This means that they can receive data from the actual parameter, they can send data to the actual parameter, or they can do both.
-\item In C, programmers are required to pass the length of an array to a method. Specifying the length of an array (like in C) is unnecessary because Java arrays store a pointer to an address containing their length.
-\item The return address usually consists of a pointer to the instruction following the call in the code segment of the calling program unit.  The dynamic link points to the base of the activation record instance of the caller.
-\item In a recursive program there can be multiple activation records (although they will be incomplete) for a single subprogram.
-\item LIFO allows for subprograms to be nested within one another and for subprograms to be used as parameters within other subprograms. (417)
-\item RISC (reduced instruction set computing) machines have parameters passed in registers in their compilers because RISC machines have more registers than CISC (complex instruction set computing) machines. Chapter 10 assumes parameters are passed in the stack though, as they had been in CISC machines.
-\item A dynamic chain represents the dynamic history of how the execution got to its current position, which is always in the subprogram code whose activation record instance is on top of the stack.
-\item To compute the address of a local variable you need the (chain_offset, local_offset) pair.
-\item Modules are unlike classes in that they cannot be instantiated or subclassed and do not define variables. Methods that are defined in a module include the module’s name in their names.
-\item In C++, variables can be allocated to the heap either by making them “static” or by allocating memory with the keyword “new”. However, variables which are initialized during the execution of a function are allocated to the stack. Java behaves the same way. (216-217)
-\item Generics allow a type or method to operate on objects of various types while providing compile-time type safety.(From wikipedia)
-\item The static chain is a path of pointers which go from each function to its parent. They allow child subprograms to use variables which are local to their parent, grandparent, or farther up, without needing to copy those variables to the call stack.
-\item A singleton is a class which provides a global access point to a single instance. This is useful for tasks which only need one point of access, like a file system.
-\item 1. A type definition which allows program units to declare variables of the type but hides the representation of objects of the type. 2. A set of operations for manipulating objects of the type.
+
+\begin{lstlisting}{}
+for variable in [reverse] discrete_range loop … end loop; 
+\end{lstlisting}
+
+Ada’s for loop can use any ordinal type variable for its
+counter. Arrays with ordinal type subscripts can be conveniently
+processed. (261) For loops in Java are more flexible - can have
+infinite loops, change loop variable inside body, etc. but is
+potentially more confusing to read.
+\item Guarded commands in Ada are nondeterministically chosen for
+  execution when more than one of the statements are evaluated to
+  true. This means that if there are three guarded statements and two
+  of the three evaluate to true, then each time the program will use
+  one of the two statements. It will not always use the one that
+  appears first nor the one that appears last, but rather it will
+  choose between them non-deterministically or randomly.
+\item A function prototype is a function declaration that gives the
+  function's name and type signature, but does not specify the
+  function body. It is also referred to as a function interface at
+  times. In other languages these are uncommon because subprograms do
+  not need declarations since they do no need to be defined before
+  they are called.
+\item If a method is defined outside of the definition of any class
+  that the programmer writes then the method belongs to the root
+  object, \textbf{Object}.  <--This is latex code to make it bold
+\item Positional parameters are bound based on the order in which they
+  are given to the function. Keyword parameters are when the name of
+  the formal parameter to which an actual parameter is to be bound is
+  specified with the actual parameter in a call. This allows them to
+  be input in any order.
+\item A closure is an anonymous function which can be passed as a
+  parameter. Also, Ruby doesn't nest scope, so variables defined in a
+  method are not accessible outside of the method (say, in the class
+  which defines them).  A \textbf{pure function} is a
+  \textbf{function} where the return value is only determined by its
+  input values, without observable side effects.
+\item It does not seem to be a serious limitation, it just means that
+  performing procedures in Java is more verbose because it requires
+  that the programmer instantiate the class with any needed methods.
+\item Ada allows the programmer to specify \textit{in} mode,
+  \textit{out} mode, and \textit{inout} mode for each formal
+  parameter.  This means that they can receive data from the actual
+  parameter, they can send data to the actual parameter, or they can
+  do both.
+\item In C, programmers are required to pass the length of an array to
+  a method. Specifying the length of an array (like in C) is
+  unnecessary because Java arrays store a pointer to an address
+  containing their length.
+\item The return address usually consists of a pointer to the
+  instruction following the call in the code segment of the calling
+  program unit.  The dynamic link points to the base of the activation
+  record instance of the caller.
+\item In a recursive program there can be multiple activation records
+  (although they will be incomplete) for a single subprogram.
+\item LIFO allows for subprograms to be nested within one another and
+  for subprograms to be used as parameters within other
+  subprograms. (417)
+\item RISC (reduced instruction set computing) machines have
+  parameters passed in registers in their compilers because RISC
+  machines have more registers than CISC (complex instruction set
+  computing) machines. Chapter 10 assumes parameters are passed in the
+  stack though, as they had been in CISC machines.
+\item A dynamic chain represents the dynamic history of how the
+  execution got to its current position, which is always in the
+  subprogram code whose activation record instance is on top of the
+  stack.
+\item To compute the address of a local variable you need the
+  (chain\_offset, local\_offset) pair.
+\item Modules are unlike classes in that they cannot be instantiated
+  or subclassed and do not define variables. Methods that are defined
+  in a module include the module’s name in their names.
+\item In C++, variables can be allocated to the heap either by making
+  them “static” or by allocating memory with the keyword
+  “new”. However, variables which are initialized during the execution
+  of a function are allocated to the stack. Java behaves the same
+  way. (216-217)
+\item Generics allow a type or method to operate on objects of various
+  types while providing compile-time type safety.(From wikipedia)
+\item The static chain is a path of pointers which go from each
+  function to its parent. They allow child subprograms to use
+  variables which are local to their parent, grandparent, or farther
+  up, without needing to copy those variables to the call stack.
+\item A singleton is a class which provides a global access point to a
+  single instance. This is useful for tasks which only need one point
+  of access, like a file system.
+\item 1. A type definition which allows program units to declare
+  variables of the type but hides the representation of objects of the
+  type. 2. A set of operations for manipulating objects of the type.
 
 \end{enumerate}
 \end{answer}
